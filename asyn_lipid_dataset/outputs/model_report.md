@@ -1,17 +1,17 @@
 # Baseline model evaluation (pilot)
 
-- Modelling rows (conditions with a direct-aggregation effect label): **35**
-- Class balance: accelerate=16, neutral=13, reduce=6
-- Driver-lipid classes present: PS=14, ganglioside=10, glycosphingolipid=2, sphingolipid=2, unknown=2, PC=2, PEG-lipid=2, cardiolipin=1
+- Modelling rows (conditions with a direct-aggregation effect label): **36**
+- Class balance: accelerate=17, neutral=13, reduce=6
+- Driver-lipid classes present: PS=14, ganglioside=10, PC=3, glycosphingolipid=2, sphingolipid=2, unknown=2, PEG-lipid=2, cardiolipin=1
 
-Each cell is **accuracy / macro-F1**. Macro-F1 weights the three classes equally, so it punishes a model that ignores the rare `reduce` class. Majority-class accuracy is **0.457**.
+Each cell is **accuracy / macro-F1**. Macro-F1 weights the three classes equally, so it punishes a model that ignores the rare `reduce` class. Majority-class accuracy is **0.472**.
 
 | model | Stratified-5fold (optimistic) | Leave-One-Paper-Out | Leave-One-Lipid-Out |
 |---|---|---|---|
-| Dummy(most_frequent) | 0.457 / 0.209 | 0.314 / 0.185 | 0.343 / 0.174 |
-| Rule(heuristic) | 0.600 / 0.600 | 0.600 / 0.600 | 0.600 / 0.600 |
-| NN(k=1 chem+cond) | 0.743 / 0.712 | 0.371 / 0.262 | 0.771 / 0.752 |
-| Logistic(L2) | 0.714 / 0.686 | 0.457 / 0.324 | 0.800 / 0.772 |
+| Dummy(most_frequent) | 0.472 / 0.214 | 0.333 / 0.193 | 0.472 / 0.214 |
+| Rule(heuristic) | 0.583 / 0.589 | 0.583 / 0.589 | 0.583 / 0.589 |
+| NN(k=1 chem+cond) | 0.722 / 0.708 | 0.333 / 0.241 | 0.750 / 0.735 |
+| Logistic(L2) | 0.722 / 0.704 | 0.361 / 0.245 | 0.778 / 0.753 |
 
 ## Leave-One-Paper-Out confusion (Logistic L2)
 
@@ -19,8 +19,8 @@ rows = true, cols = predicted
 
 | true \ pred | accelerate | neutral | reduce |
 |---|---|---|---|
-| accelerate | 13 | 1 | 2 |
-| neutral | 7 | 3 | 3 |
+| accelerate | 11 | 4 | 2 |
+| neutral | 8 | 2 | 3 |
 | reduce | 6 | 0 | 0 |
 
 ## Per-held-out-paper accuracy (Logistic L2, LOPO)
@@ -28,10 +28,11 @@ rows = true, cols = predicted
 | held-out paper | n | accuracy | note |
 |---|---|---|---|
 | martinez2007 | 6 | 0.000 | classes: neutral,reduce.  |
-| grey2015 | 10 | 0.800 | classes: accelerate,neutral.  |
+| grey2015 | 10 | 0.700 | classes: accelerate,neutral.  |
 | galvagnion2016 | 10 | 0.100 | classes: accelerate,neutral.  |
 | galvagnion2015 | 2 | 0.500 | classes: accelerate,reduce.  |
-| gaspar2018 | 7 | 0.857 | classes: accelerate,neutral.  |
+| gaspar2018 | 7 | 0.571 | classes: accelerate,neutral.  |
+| matveyenka2024 | 1 | 0.000 | classes: accelerate.  |
 
 ## Interpretation
 

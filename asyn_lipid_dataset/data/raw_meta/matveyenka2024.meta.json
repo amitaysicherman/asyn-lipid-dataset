@@ -1,0 +1,359 @@
+{
+  "id": "39469734",
+  "source": "MED",
+  "pmid": "39469734",
+  "pmcid": "PMC11587506",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC11587506"
+    ]
+  },
+  "doi": "10.1021/acschemneuro.4c00501",
+  "title": "Cholesterol Accelerates Aggregation of \u03b1-Synuclein Simultaneously Increasing the Toxicity of Amyloid Fibrils.",
+  "authorString": "Matveyenka M, Ali A, Mitchell CL, Brown HC, Kurouski D.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Matveyenka M",
+        "lastName": "Matveyenka",
+        "firstName": "Mikhail",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ali A",
+        "lastName": "Ali",
+        "firstName": "Abid",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mitchell CL",
+        "lastName": "Mitchell",
+        "firstName": "Charles L",
+        "initials": "CL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brown HC",
+        "lastName": "Brown",
+        "firstName": "Harris C",
+        "initials": "HC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kurouski D",
+        "lastName": "Kurouski",
+        "firstName": "Dmitry",
+        "initials": "D",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6040-4213"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0002-6040-4213"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics"
+    ]
+  },
+  "journalInfo": {
+    "issue": "21",
+    "volume": "15",
+    "journalIssueId": 3848022,
+    "dateOfPublication": "2024 Nov",
+    "monthOfPublication": 11,
+    "yearOfPublication": 2024,
+    "journal": {
+      "medlineAbbreviation": "ACS Chem Neurosci",
+      "title": "ACS chemical neuroscience",
+      "essn": "1948-7193",
+      "issn": "1948-7193",
+      "nlmid": "101525337",
+      "isoabbreviation": "ACS Chem Neurosci"
+    },
+    "printPublicationDate": "2024-11-01"
+  },
+  "pubYear": "2024",
+  "pageInfo": "4075-4081",
+  "abstractText": "A hallmark of Parkinson disease (PD) is a progressive degeneration of neurons in the substantia nigra pars compacta, hypothalamus, and thalamus. Although the exact etiology of irreversible neuronal degeneration is unclear, a growing body of experimental evidence indicates that PD could be triggered by the abrupt aggregation of \u03b1-synuclein (\u03b1-Syn), a small membrane protein that is responsible for cell vesicle trafficking. Phospholipids uniquely alter the rate of \u03b1-Syn aggregation and, consequently, change the cytotoxicity of \u03b1-Syn oligomers and fibrils. However, the role of cholesterol in the aggregation of \u03b1-Syn remains unclear. In this study, we used <i>Caenorhabditis elegans</i> that overexpressed \u03b1-Syn to investigate the effect of low (15%), normal (30%), and high (60%) concentrations of cholesterol on \u03b1-Syn aggregation. We found that an increase in the concentration of cholesterol in diets substantially shortened the lifespan of <i>C. elegans</i>. Using biophysical methods, we also investigated the extent to which large unilamellar vesicles (LUVs) with low, normal, and high concentrations of cholesterol altered the rate of \u03b1-Syn aggregation. We found that only lipid membranes with a 60% concentration of cholesterol substantially accelerated the rate of protein aggregation. Cell assays revealed that \u03b1-Syn fibrils formed in the presence of LUVs with different concentrations of cholesterol exerted very similar levels of cytotoxicity to rat dopaminergic neurons. These results suggest that changes in the concentration of cholesterol in the plasma membrane, which in turn could be caused by nutritional preferences, could accelerate the onset and progression of PD.",
+  "affiliation": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "National Institute of General Medical Sciences",
+        "grantId": "R35GM142869",
+        "orderIn": 0
+      },
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grantId": "R35 GM142869",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Animals"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Animals, Genetically Modified"
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Caenorhabditis elegans"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Parkinson Disease",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PA",
+              "qualifierName": "pathology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Cholesterol",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Amyloid",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "DE",
+              "qualifierName": "drug effects"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "TO",
+              "qualifierName": "toxicity"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "alpha-Synuclein",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "TO",
+              "qualifierName": "toxicity"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Protein Aggregates",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "DE",
+              "qualifierName": "drug effects"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Protein Aggregation, Pathological",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Cholesterol",
+      "Caenorhabditis elegans",
+      "ROS",
+      "\u03b1-synuclein",
+      "Fibrils"
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Amyloid",
+        "registryNumber": "0"
+      },
+      {
+        "name": "alpha-Synuclein",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Cholesterol",
+        "registryNumber": "97C5T2UQ7J"
+      },
+      {
+        "name": "Protein Aggregates",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "doi",
+        "site": "Unpaywall",
+        "url": "https://doi.org/10.1021/acschemneuro.4c00501"
+      },
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1021/acschemneuro.4c00501"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11587506"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11587506?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 8,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "N",
+  "hasLabsLinks": "Y",
+  "hasData": "N",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2024-11-06",
+  "dateOfCreation": "2024-10-29",
+  "dateOfRevision": "2025-04-07",
+  "electronicPublicationDate": "2024-10-29",
+  "firstPublicationDate": "2024-10-29",
+  "firstIndexDate": "2024-10-29",
+  "fullTextReceivedDate": "2024-11-29",
+  "hasEvaluations": "N"
+}

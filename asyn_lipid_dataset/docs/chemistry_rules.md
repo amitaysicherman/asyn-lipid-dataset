@@ -108,14 +108,26 @@ abolishes triggering.
 **Touches the candidates:** the PC candidates can *blunt* an anionic trigger, but this is a
 dilution effect, not intrinsic inhibition.
 
-## Rule 8 — Ordered/raft lipids lower the density of nucleation-competent defects
-**Mechanism [hypothesis]:** α-syn inserts at **packing defects**. Cholesterol condenses
-bilayers and, with sphingomyelin and saturated PC, forms tightly-packed **liquid-ordered /
-raft** phases with few defects → fewer heterogeneous-nucleation sites → mildly protective.
-**Evidence:** cholesterol added to a synaptic-mimic membrane did not initiate aggregation
-[fact: Galvagnion 2016]; the rest is established raft biophysics [hypothesis for α-syn].
-**Touches the candidates:** ranks the neutral candidates among themselves:
-**cholesterol > DSPC ≈ DPPC ≈ SM (ordered, defect-poor) > DMPC > POPC > DOPC (loose, defect-rich).**
+## Rule 8 — Passive protection by neutral lipids comes from *weak sequestration*, not ordering ⚠️ REVISED
+**Original hypothesis (now rejected):** I first guessed that raft-forming, defect-poor
+membranes (cholesterol + SM + saturated PC) would be the most protective neutral lipids.
+**New data refuted this.** [fact: Matveyenka 2024]
+- **Cholesterol *accelerates*** α-syn aggregation at **high mol% (60 %)** (t½ 61 h vs 82 h
+  lipid-free; lag 12.2 vs 16.4 h); inert at ≤30 %. Mechanism: cholesterol **raises membrane
+  hydrophobicity**, strengthening α-syn–membrane interaction → *promotes*, not protects.
+- **Gel-phase DPPC does *not* suppress** and **shortens the lag** (12.3 vs 16.4 h) → mildly
+  *promotes*. But **fluid DMPC (14:0) strongly *suppresses*** [fact: Matveyenka citing Dou
+  et al.]. A **2-carbon change (14:0→16:0) flips a PC from suppressor to non-protective.**
+**Revised mechanism [inference]:** a neutral lipid can only protect by **binding enough
+monomer to sequester it**, and that needs a **fluid** bilayer. **Gel** lipids (DPPC, DSPC)
+and **cholesterol-stiffened** membranes bind too little to sequester — and can even present a
+weakly nucleating hydrophobic surface.
+**Touches the candidates — revised ranking of the neutral ones:**
+**DMPC (fluid, binds, suppresses) > DOPC ≈ POPC (fluid, mild) > DPPC ≈ DSPC (gel, inert→mild
+promote) ≈ SM > cholesterol (promotes at high %).**
+_This is the clearest example in the project of data overturning a chemical intuition — the
+"ordered = protective" idea is wrong for α-syn here; fluidity-enabled sequestration is what
+matters._
 
 ---
 
@@ -125,8 +137,9 @@ raft** phases with few defects → fewer heterogeneous-nucleation sites → mild
             charged & soluble?          pH / ratio
  lipid ──► (anionic + short-sat         ──► acidic + low ratio ─► ACCELERATE (surface catalysis)
             or ganglioside)             ──► neutral + high ratio ─► INHIBIT  (sequestration)
-       └─► neutral (PC/SM/chol) ─► weak binding ─► INERT ─► at most mild, passive protection
-                                                   (ordered/raft lipids a little more protective)
+       └─► neutral (PC/SM/chol) ─► weak binding ─► mostly INERT; FLUID PC (e.g. DMPC) binds
+                                                   enough to mildly SUPPRESS; gel PC (DPPC/DSPC)
+                                                   and high cholesterol can mildly PROMOTE
 ```
 
 The single most useful sentence: **only an anionic, soluble binder (among the 8, just GM1)
@@ -144,18 +157,22 @@ Produced quantitatively by `src/chemistry_ranking.py`; the summary:
 regime):**
 1. **GM1** — the only candidate that can *actively* inhibit (binds strongly, sequesters
    monomer, induces stable helix). [fact at neutral pH: Martinez 2007]
-2. **Cholesterol** — best "passive" protector (condenses membranes, removes defects).
-3–4. **Sphingomyelin ≈ DSPC ≈ DPPC** — ordered/gel, defect-poor, most inert.
-5. **DMPC** — fluid but saturated; inert, slightly less ordered.
-6–7. **DOPC ≈ POPC** — fluid, unsaturated, defect-rich; inert but least protective (DOPC's
-   mild retardation is the only *measured* hint of protection here).
+2. **DMPC** — fluid, binds enough to **sequester**; reported to **strongly suppress** α-syn
+   aggregation. [fact: Matveyenka 2024 citing Dou et al.]
+3–4. **DOPC ≈ POPC** — fluid, bind a little; DOPC shows measured mild retardation.
+5–7. **SM ≈ DPPC ≈ DSPC** — ordered/gel, bind too little to sequester; **DPPC measured to
+   mildly *promote*** (shortens lag). [fact: Matveyenka 2024]
+8. **Cholesterol** — **not protective**; *accelerates* at high mol% (60 %) by raising membrane
+   hydrophobicity, inert at ≤30 %. [fact: Matveyenka 2024]
 
 **If the assay is ACIDIC / low ratio (the triggering regime, as in Grey/Gaspar):** GM1 drops
-to **last** (it becomes a strong promoter); the neutral lipids keep the same order and are the
-only safe choices.
+to **last** (it becomes a strong promoter); the neutral lipids keep roughly this order and are
+the safer choices (cholesterol at high % still a mild promoter).
 
-**Candidates with zero direct evidence (DPPC, DSPC, POPC):** their positions are **predictions
-from the rules, not observations** — they should be the first dedicated wet-lab experiments.
+**Candidates with the thinnest evidence (DSPC, POPC):** their positions are **predictions
+from the rules**, not observations — they should be among the first dedicated experiments.
+DPPC and cholesterol are now anchored by Matveyenka 2024; DMPC by the Dou citation (get the
+Dou primary paper for its numbers).
 
 ---
 
@@ -163,11 +180,14 @@ from the rules, not observations** — they should be the first dedicated wet-la
 1. **GM1 pH-switch:** titrate GM1:α-syn at pH 5.5 vs 7.4 — predict acceleration at acidic/low
    ratio, inhibition at neutral/high ratio, with a crossover. This single experiment validates
    Rules 3–5 and pins down GM1's usable window.
-2. **Cholesterol dose in an *aggregating* system:** cholesterol (0–40 %) in a membrane that
-   otherwise triggers (e.g. with DMPS) — predict monotonic *reduction* of triggering (Rule 8).
-3. **Saturation/length series of neutral PC:** DOPC vs POPC vs DMPC vs DPPC vs DSPC at fixed
-   conditions — predict all inert, with the ordered (DPPC/DSPC) giving the largest mild
-   retardation (Rules 6, 8). Fills the DPPC/DSPC/POPC evidence gap.
+2. **Cholesterol dose:** ⚠️ my original "cholesterol reduces" prediction was **wrong** —
+   Matveyenka 2024 shows cholesterol in DPPC LUVs is inert at ≤30 % but **accelerates at 60 %**.
+   Follow-up: test cholesterol in a *fluid, aggregating* membrane and in isolation to separate
+   the hydrophobicity-promotion effect from membrane phase.
+3. **Saturation/length series of neutral PC:** DMPC vs DPPC vs DSPC vs DOPC vs POPC at fixed
+   conditions — predict **DMPC suppresses (fluid, binds), DPPC/DSPC do not (gel)** and may
+   mildly promote; the 14:0→16:0 step is the key boundary (Rules 6, 8-revised). Partly
+   confirmed (DMPC suppress / DPPC promote); **POPC and DSPC still untested** — fill that gap.
 4. **Raft mimic:** cholesterol + sphingomyelin + saturated PC vs a loose DOPC membrane —
    predict the raft mimic is the more protective (Rule 8).
 

@@ -8,14 +8,14 @@ _Inhibition-favouring regime: excess membrane sequesters monomer; neutral pH kee
 
 | rank | candidate | reduction potential (0-10) | trigger risk T | sequestration Iseq | ordering O | evidence |
 |---|---|---|---|---|---|---|
-| 1 | **GM1** | 8.4 | 0.09 | 3.0 | 0.0 | moderate (multiple papers; but pH-conflicted) |
-| 2 | **Cholesterol** | 6.1 | 0.0 | 0.3 | 1.0 | low (one additive test: no initiation) |
-| 3 | **SM** | 6.0 | 0.0 | 0.5 | 0.7 | very low (abstract: 'negligible interaction') |
-| 4 | **DPPC** | 6.0 | 0.0 | 0.5 | 0.7 | none (prediction from rules only) |
-| 5 | **DSPC** | 6.0 | 0.0 | 0.5 | 0.7 | none (prediction from rules only) |
-| 6 | **DMPC** | 5.4 | 0.0 | 0.5 | 0.3 | low (only as DMPS diluent) |
-| 7 | **DOPC** | 5.1 | 0.0 | 0.5 | 0.1 | moderate (pure DOPC tested: inert/mild retardation) |
-| 8 | **POPC** | 5.1 | 0.0 | 0.5 | 0.1 | none (prediction from rules only) |
+| 1 | **GM1** | 8.4 | 0.09 | 3.0 | 0.0 | moderate (multiple papers; pH-conflicted) |
+| 2 | **DMPC** | 5.9 | 0.0 | 0.5 | 0.6 | low-moderate (DMPS diluent + Dou: DMPC strongly suppresses) |
+| 3 | **DOPC** | 5.4 | 0.0 | 0.5 | 0.25 | moderate (pure DOPC tested: inert/mild retardation) |
+| 4 | **POPC** | 5.4 | 0.0 | 0.5 | 0.25 | none (prediction from rules only) |
+| 5 | **SM** | 5.0 | 0.0 | 0.5 | 0.0 | very low (abstract: 'negligible interaction') |
+| 6 | **DPPC** | 5.0 | 0.0 | 0.5 | 0.0 | moderate (Matveyenka 2024: pure DPPC shortens lag / accelerates) |
+| 7 | **DSPC** | 5.0 | 0.0 | 0.5 | 0.0 | none (prediction from rules only) |
+| 8 | **Cholesterol** | 4.7 | 0.04 | 0.3 | 0.0 | moderate (Matveyenka 2024: accelerates at 60%, inert <=30%) |
 
 ### Scenario B - Acidic pH (5.5), LOW lipid:protein ratio, 37 C
 
@@ -23,14 +23,14 @@ _Triggering-favouring regime (as in Grey/Gaspar). Here anionic/ganglioside lipid
 
 | rank | candidate | reduction potential (0-10) | trigger risk T | sequestration Iseq | ordering O | evidence |
 |---|---|---|---|---|---|---|
-| 1 | **Cholesterol** | 5.7 | 0.0 | 0.02 | 1.0 | low (one additive test: no initiation) |
-| 2 | **SM** | 5.3 | 0.0 | 0.03 | 0.7 | very low (abstract: 'negligible interaction') |
-| 3 | **DPPC** | 5.3 | 0.0 | 0.03 | 0.7 | none (prediction from rules only) |
-| 4 | **DSPC** | 5.3 | 0.0 | 0.03 | 0.7 | none (prediction from rules only) |
-| 5 | **DMPC** | 4.8 | 0.0 | 0.03 | 0.3 | low (only as DMPS diluent) |
-| 6 | **DOPC** | 4.5 | 0.0 | 0.03 | 0.1 | moderate (pure DOPC tested: inert/mild retardation) |
-| 7 | **POPC** | 4.5 | 0.0 | 0.03 | 0.1 | none (prediction from rules only) |
-| 8 | **GM1** | 1.0 | 2.5 | 0.18 | 0.0 | moderate (multiple papers; but pH-conflicted) |
+| 1 | **DMPC** | 5.2 | 0.0 | 0.03 | 0.6 | low-moderate (DMPS diluent + Dou: DMPC strongly suppresses) |
+| 2 | **DOPC** | 4.7 | 0.0 | 0.03 | 0.25 | moderate (pure DOPC tested: inert/mild retardation) |
+| 3 | **POPC** | 4.7 | 0.0 | 0.03 | 0.25 | none (prediction from rules only) |
+| 4 | **SM** | 4.3 | 0.0 | 0.03 | 0.0 | very low (abstract: 'negligible interaction') |
+| 5 | **DPPC** | 4.3 | 0.0 | 0.03 | 0.0 | moderate (Matveyenka 2024: pure DPPC shortens lag / accelerates) |
+| 6 | **DSPC** | 4.3 | 0.0 | 0.03 | 0.0 | none (prediction from rules only) |
+| 7 | **Cholesterol** | 2.9 | 1.0 | 0.02 | 0.0 | moderate (Matveyenka 2024: accelerates at 60%, inert <=30%) |
+| 8 | **GM1** | 1.0 | 2.5 | 0.18 | 0.0 | moderate (multiple papers; pH-conflicted) |
 
 ## How to read this
 - **GM1 is the only high-leverage candidate** and it is a *switch*: top of Scenario A (neutral pH, excess GM1 -> sequesters monomer, induces stable helix -> inhibits, per Martinez 2007) but a strong *promoter* in Scenario B (acidic, low ratio -> Grey/Gaspar). Its rank swings the most between scenarios.

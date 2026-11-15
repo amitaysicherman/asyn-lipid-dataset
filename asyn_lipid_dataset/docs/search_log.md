@@ -46,6 +46,23 @@ used to confirm identities/DOIs of the primary studies above.
 
 ## Expansion status
 Pilot = the first three primary studies (Martinez 2007, Grey 2015, Galvagnion 2016), extended with
-Galvagnion 2015 and Gaspar 2018 (also in the seed list, already read). Broader citation/forward-search
-expansion is the documented next step (see report §Next steps); it was deprioritised until the pilot
-was validated, per the brief.
+Galvagnion 2015 and Gaspar 2018 (also in the seed list). **Matveyenka 2024** (cholesterol/DPPC,
+PMC11587506, open access) was added after review — it fills the DPPC and cholesterol gaps, gives the
+first explicit numeric half-times, and overturned the "ordered lipids are protective" hypothesis
+(Rule 8 in chemistry_rules.md was revised accordingly).
+
+## Priority papers still to obtain (ranked) — for the manual-download inbox
+These directly fill the remaining candidate gaps (DMPC numbers, POPC, DSPC) and the inhibition paradigm.
+Most are paywalled (ACS/Elsevier), so they need manual download into `data/manual_downloads/<folder>/`.
+
+| priority | paper | why | drop folder |
+|---|---|---|---|
+| 1 | **Dou T, Matveyenka M, Kurouski D. 2023**, *ACS Chem. Neurosci.* 14(17):3183-3191, doi:10.1021/acschemneuro.3c00314 — "…α-Synuclein… in the Presence of Phosphatidylcholine and Phosphatidylserine" | the primary source of the **DMPC strongly-suppresses** result (DMPC is a candidate); PC vs PS series | `dou2023/` |
+| 2 | **Martinez et al. 2007** full text + SI (doi:10.1021/bi061749a) | only **GM1 inhibition** paper; need ThT numbers + exact neutral-pH conditions | `martinez2007/` |
+| 3 | **Phospholipid saturation & composition, 2025** (PMC12006753) — PMC HTML was reCAPTCHA-blocked | saturated-PC series incl. **POPC/DPPC**; LUV ThT (t½) | `saturation2025/` |
+| 4 | **Lipid Acyl Chain-Driven α-Syn Fibril Polymorphisms, 2025**, doi:10.1021/acschemneuro.5c00730 | acyl-chain length/saturation effects (tests Rule 2 and the PC series) | `acylchain2025/` |
+| 5 | Galvagnion 2016 **SI PDF** (DMPC:DMPS Fig S2) + Galvagnion 2015 SI | the DMPC:DMPS curves behind the PMC proof-of-work gate | `galvagnion2016/`, `galvagnion2015/` |
+| 6 | Dou T, Kurouski 2022 (doi:10.1021/acschemneuro.2c00355); Dou, Zhou, Kurouski 2021 (doi:10.1021/acs.jpclett.1c00820) | companion PC/PS structural papers (secondary) | `dou2023/` |
+
+Review to mine for more primaries (optional): *The Effects of Lipids on α-Synuclein Aggregation In
+Vitro*, Biomolecules 2023, doi:10.3390/biom13101476.

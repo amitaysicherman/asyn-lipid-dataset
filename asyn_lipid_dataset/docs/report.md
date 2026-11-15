@@ -42,12 +42,14 @@ Consequences the model and the candidate table reflect:
 
 ## 2. Dataset coverage (see `outputs/audit_report.md` for the full audit)
 
-- **Papers:** 6 (5 primary + 1 assay reference). 5 full-text; **Martinez 2007 abstract-only**
+- **Papers:** 7 (6 primary + 1 assay reference). 6 full-text; **Martinez 2007 abstract-only**
   (paywalled).
 - **Lipids catalogued:** 22 (13 with RDKit-validated SMILES; 9 natural mixtures/gangliosides
   deliberately left without a SMILES — no arbitrary structure assigned to a natural mixture).
-- **Experimental conditions:** 43. **Measurement records:** 55 (46 direct-aggregation,
-  9 binding/structural). **Distinct formulations:** 26.
+- **Experimental conditions:** 48. **Measurement records:** 63. **Distinct formulations:** 30.
+- **First hard numbers:** Matveyenka 2024 (added after review) contributes the first explicit
+  numeric half-times / lag-times (t½ 82 h lipid-free; 61 h at 60 % cholesterol, etc.) — 7
+  text-reported kinetic numbers, still 0 figure-digitized.
 - **Independent-experiment counting is conservative:** 1 condition = 1 experiment; replicate
   wells and time points are *not* counted as independent.
 - **Raw vs digitized:** all numeric values are text/table-reported; **0 digitized** so far
@@ -61,10 +63,10 @@ Consequences the model and the candidate table reflect:
 |---|---|---|---|
 | **GM1** | 7 | inhibition (neutral pH) **vs** acceleration (pH 5.5) — conflict by pH | no (curves/abstract) |
 | **DOPC** | 2 (pure) | no effect / mild retardation | no |
-| **Cholesterol** | 1 | no effect (does not initiate; tested only as additive in a non-triggering mix) | no |
+| **Cholesterol** | 4 | dose-dependent: inert ≤30 %, **accelerates at 60 %** (Matveyenka 2024) | yes — t½ 61 vs 82 h |
+| **DPPC** | 1 (pure) + mixes | **shortens lag / mild accelerate** (Matveyenka 2024); does NOT suppress | yes — t_lag 12.3 vs 16.4 h |
+| **DMPC** | mixture + citation | **strongly suppresses** (Dou, via Matveyenka); dilutes DMPS triggering | numeric in Dou (to fetch) |
 | **Sphingomyelin** | 1 | "negligible interaction" (Martinez, abstract; thin) | no |
-| **DMPC** | (mixture) | reduces DMPS-driven aggregation as its fraction rises (dilution of charge) | ordinal threshold only |
-| **DPPC** | 0 | — no primary evidence found | no |
 | **DSPC** | 0 | — no primary evidence found | no |
 | **POPC** | 0 | — no primary evidence found (POPS ≠ POPC) | no |
 

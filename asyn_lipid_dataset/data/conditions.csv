@@ -1,12 +1,12 @@
 condition_id,paper_id,label,assay_type,assay_paradigm,protein_variant,protein_conc_uM,buffer,pH,salt_mM,temp_C,agitation,plate,tht_uM,formulation,prep_method,vesicle_size_nm,seeding,obs_h,total_lipid_uM,lipid_to_protein_molar_ratio,source_page
-martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c02,martinez2007,GM2 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c03,martinez2007,GM3 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c06,martinez2007,other sphingolipids + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c07,martinez2007,GM1 SUVs + A53T mutant,ThT_fibrillation,inhibition,A53T,,,,,,,,,SUV,,,unseeded,,,,abstract
-martinez2007_c08,martinez2007,GM1 SUVs + A30P mutant,ThT_fibrillation,inhibition,A30P,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c02,martinez2007,GM2 SUVs + WT,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c03,martinez2007,GM3 SUVs + WT,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c06,martinez2007,other sphingolipids + WT,ThT_fibrillation,aggregating_baseline,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c07,martinez2007,GM1 SUVs + A53T mutant,ThT_fibrillation,aggregating_baseline,A53T,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c08,martinez2007,GM1 SUVs + A30P mutant,ThT_fibrillation,aggregating_baseline,A30P,,,,,,,,,SUV,,,unseeded,,,,abstract
 grey2015_ctrl_shake,grey2015,alpha-syn alone (control),ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631 nontreated PS full-vol,20,none,,,unseeded,144,,,
 grey2015_ctrl_quiet_nb,grey2015,alpha-syn alone (control),ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,quiescent,Corning 3881 nonbinding half-area,20,none,,,unseeded,144,,,
 grey2015_c_exo_wtOE,grey2015,"exosomes (N2a WT-OE) 0.25 mg/ml, shaking",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631 nontreated PS full-vol,20,exosome,ultracentrifugation from N2a medium,~100,unseeded,144,,,
@@ -42,3 +42,8 @@ gaspar2018_c_dopc,gaspar2018,pure DOPC SUV,ThT_kinetics,lipid_induced,WT,20,10 m
 gaspar2018_c_asialogm1,gaspar2018,DOPC:Asialo-GM1 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
 gaspar2018_c_cerpeg,gaspar2018,DOPC:Cer-PEG750 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
 gaspar2018_c_pepeg,gaspar2018,DOPC:PE-PEG750 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+matveyenka2024_ctrl,matveyenka2024,alpha-syn alone (lipid-free),ThT_kinetics,aggregating_baseline,WT,40,PBS,7.4,137,37,510 rpm,96-well (Tecan),2000,none,extrusion 100 nm,100,unseeded,160,,,
+matveyenka2024_dppc,matveyenka2024,"100% DPPC LUV, 1:1",ThT_kinetics,aggregating_baseline,WT,40,PBS,7.4,137,37,510 rpm,96-well (Tecan),2000,LUV,extrusion 100 nm,100,unseeded,160,40.0,1.0,
+matveyenka2024_chol15,matveyenka2024,"15:85 Cholesterol:DPPC LUV, 1:1",ThT_kinetics,aggregating_baseline,WT,40,PBS,7.4,137,37,510 rpm,96-well (Tecan),2000,LUV,extrusion 100 nm,100,unseeded,160,40.0,1.0,
+matveyenka2024_chol30,matveyenka2024,"30:70 Cholesterol:DPPC LUV, 1:1",ThT_kinetics,aggregating_baseline,WT,40,PBS,7.4,137,37,510 rpm,96-well (Tecan),2000,LUV,extrusion 100 nm,100,unseeded,160,40.0,1.0,
+matveyenka2024_chol60,matveyenka2024,"60:40 Cholesterol:DPPC LUV, 1:1",ThT_kinetics,aggregating_baseline,WT,40,PBS,7.4,137,37,510 rpm,96-well (Tecan),2000,LUV,extrusion 100 nm,100,unseeded,160,40.0,1.0,
