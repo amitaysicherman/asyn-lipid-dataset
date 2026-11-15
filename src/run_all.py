@@ -30,6 +30,7 @@ def main():
     run("audit.py")              # outputs/audit_report.md + candidate_evidence_table
     run("features.py")           # data/model_table.csv
     run("model_eval.py")         # outputs/model_report.md
+    run("chemistry_ranking.py")  # outputs/chemistry_ranking.md (rule-based, not ML)
     print("\nAll steps completed. See outputs/ and docs/.")
 
 

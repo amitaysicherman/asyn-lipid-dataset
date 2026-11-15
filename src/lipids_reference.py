@@ -133,6 +133,18 @@ LIPIDS = [
      "undefined natural mixture of ganglioside species; SMILES omitted"),
 ]
 
+# Main gel->fluid chain-melting transition Tm (deg C) of the PURE lipid in water.
+# Sources: Galvagnion 2016 (DOPS<10, POPS 17, DLPS 14, DMPS 41, DPPS 55 - DSC in-paper);
+# Avanti Polar Lipids / standard literature for the PC series and sphingomyelin.
+# "" = not a simple two-state Tm (sterol, ganglioside, sphingosine, PEG-lipids, mixtures).
+TM_C = {
+    "DMPC": 24, "DPPC": 41, "DSPC": 55, "DOPC": -17, "POPC": -2,
+    "DMPS": 41, "DLPS": 14, "DPPS": 55, "DOPS": -11, "POPS": 14,
+    "DOPE": -16, "SM": 39, "Cholesterol": "", "GM1": "", "GM3": "", "GM2": "",
+    "CL": "", "Sphingosine": "", "AsialoGM1": "", "PE-PEG750": "", "Cer-PEG750": "",
+    "BrainGangliosides": "",
+}
+
 HEADGROUP_CHARGE = {"PC": 0, "PE": 0, "PS": -1, "PG": -1, "PA": -1,
                     "ganglioside-GM1": -1, "ganglioside-GM3": -1, "ganglioside-GM2": -1,
                     "ganglioside-mixture": -1, "neutral-glycan": 0, "PE-PEG": -1,
@@ -175,6 +187,7 @@ def main():
             mean_chain_carbons=round(mean_c, 1) if mean_c != "" else "",
             total_double_bonds=tot_db,
             n_chains=len(chains),
+            tm_C=TM_C.get(abbrev, ""),
             smiles=canon, smiles_input=smiles or "", smiles_valid=valid,
             smiles_source=built_from or ("curated" if smiles else "omitted"),
             natural_mixture=int(bool(natmix)),
