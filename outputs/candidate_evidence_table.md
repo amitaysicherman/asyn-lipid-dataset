@@ -3,12 +3,12 @@
 _Grounded in the extracted pilot dataset. 'No effect' in a lipid-induced assay means the lipid did not trigger aggregation and is **not** proof of inhibition (the no-lipid control is also flat)._
 
 ## Cholesterol  (sterol)
-- **Direct evidence found:** Yes (one controlled test)  (conditions: 1; papers: galvagnion2016)
-- **Formulations/conditions tested:** DOPE:DOPS:DOPC 50:30:20 + 10-40% cholesterol (Galvagnion 2016)
-- **Effect & direction:** Cholesterol added to a synaptic-mimic membrane does NOT itself initiate aggregation (no effect). Tested only as an additive within a non-triggering matrix.
-- **Conflicting findings:** None in pilot; but only an absence-of-triggering result, not an inhibition test against an actively aggregating control.
-- **Quantitative prediction supported?** No.
-- **Relevance to Yuval's ThT assay:** Only tested as membrane modulator. Its effect on an ACTIVELY aggregating system is untested here.
+- **Direct evidence found:** Yes  (conditions: 4; papers: galvagnion2016, matveyenka2024)
+- **Formulations/conditions tested:** Cho:DPPC LUVs 15:85, 30:70, 60:40 at 1:1 lipid:protein, pH 7.4, shaking (Matveyenka 2024); and 10-40% in a synaptic-mimic mix (Galvagnion 2016)
+- **Effect & direction:** DOSE-DEPENDENT and NOT protective: inert at <=30% cholesterol (t1/2 ~79 h vs 82 h control) but ACCELERATES at 60% (t1/2 61 h, lag 12.2 vs 16.4 h), attributed to increased membrane hydrophobicity. Did not initiate in the low-cholesterol synaptic mimic.
+- **Conflicting findings:** Overturns the intuition that cholesterol (membrane-ordering) would be protective - at high mol% it promotes aggregation.
+- **Quantitative prediction supported?** Yes - explicit t1/2 and t_lag (Matveyenka 2024, Fig 3).
+- **Relevance to Yuval's ThT assay:** Effect depends strongly on mol% and on membrane fluidity; test a dose series, not a single %.
 
 ## Sphingomyelin (SM)  (sphingolipid)
 - **Direct evidence found:** Weak/indirect  (conditions: 1; papers: martinez2007)
@@ -19,20 +19,20 @@ _Grounded in the extracted pilot dataset. 'No effect' in a lipid-induced assay m
 - **Relevance to Yuval's ThT assay:** Under-characterised in accessible primary data. Distinguish sphingomyelin from sphingosine and from gangliosides. A dedicated ThT experiment is needed.
 
 ## DMPC  (PC)
-- **Direct evidence found:** Yes (mixtures only)  (conditions: 1; papers: galvagnion2016)
-- **Formulations/conditions tested:** DMPC:DMPS mixtures, ratio varied (Galvagnion 2016 SI Fig S2); pure DMPC not tested for aggregation
-- **Effect & direction:** Increasing DMPC fraction REDUCES DMPS-driven aggregation and binding; >25% DMPC -> no detectable stimulation. Acts by diluting anionic charge, not as an intrinsic inhibitor.
-- **Conflicting findings:** None; consistent dose-response within the one study.
-- **Quantitative prediction supported?** Ordinal (threshold at 25:75 DMPC:DMPS); no half-times.
-- **Relevance to Yuval's ThT assay:** Relevant as a neutralizing diluent of anionic triggers. Pure-DMPC effect on aggregation not in pilot.
+- **Direct evidence found:** Yes  (conditions: 1; papers: galvagnion2016)
+- **Formulations/conditions tested:** DMPC:DMPS mixtures, ratio varied (Galvagnion 2016 SI Fig S2); pure-DMPC LUVs in Dou et al. (cited by Matveyenka 2024)
+- **Effect & direction:** Fluid (Tm 24C) neutral PC that binds enough to SEQUESTER: Dou et al. report pure DMPC LUVs STRONGLY SUPPRESS alpha-syn aggregation; and increasing DMPC fraction reduces DMPS-driven aggregation (>25% DMPC -> no stimulation). The most promising neutral candidate for suppression.
+- **Conflicting findings:** Contrasts sharply with DPPC (16:0): a 2-carbon-longer, gel-phase PC does NOT suppress.
+- **Quantitative prediction supported?** Ordinal from Galvagnion; numeric suppression data is in the Dou et al. primary paper (to fetch).
+- **Relevance to Yuval's ThT assay:** Strong lead as a passive suppressor; get the Dou et al. paper for conditions/half-times.
 
 ## DPPC  (PC)
-- **Direct evidence found:** No  (conditions: 0; papers: —)
-- **Formulations/conditions tested:** Not tested in the pilot primary studies (DPPC mentioned only as a literature comparison).
-- **Effect & direction:** No direct α-syn aggregation ThT record in the accessible pilot.
-- **Conflicting findings:** n/a
-- **Quantitative prediction supported?** No
-- **Relevance to Yuval's ThT assay:** No primary evidence yet; needs targeted search and/or a wet-lab experiment.
+- **Direct evidence found:** Yes  (conditions: 4; papers: matveyenka2024)
+- **Formulations/conditions tested:** Pure DPPC LUVs + Cho:DPPC mixes, 1:1 lipid:protein, pH 7.4, 37C, shaking (Matveyenka 2024)
+- **Effect & direction:** Gel-phase (Tm 41C) neutral PC that does NOT suppress - pure DPPC SHORTENS the lag (12.3 vs 16.4 h), i.e. mildly promotes. Binds alpha-syn too weakly (gel) to sequester it.
+- **Conflicting findings:** Directly contrasts the DMPC suppression: '...not observed for DPPC... a change in two carbon atoms caused a major effect' (Matveyenka 2024).
+- **Quantitative prediction supported?** Yes - t_lag (Matveyenka 2024).
+- **Relevance to Yuval's ThT assay:** Not a suppressor under these conditions; useful as a non-protective saturated-PC reference.
 
 ## DSPC  (PC)
 - **Direct evidence found:** No  (conditions: 0; papers: —)

@@ -24,6 +24,7 @@ os.makedirs(OUT, exist_ok=True)
 ARTICLES = {
     "grey2015": ("PMC4317028.xml", "jats"),
     "gaspar2018": ("PMC6121081.xml", "jats"),
+    "matveyenka2024": ("PMC11587506.xml", "jats"),
     "galvagnion2016": ("galvagnion2016.html", "pmchtml"),
     "galvagnion2015": ("galvagnion2015.html", "pmchtml"),
     "tht_assay2018": ("tht_assay2018.html", "pmchtml"),

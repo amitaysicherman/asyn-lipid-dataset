@@ -22,7 +22,8 @@ no-lipid control IN THE SAME ASSAY:
 assay_paradigm:
   lipid_induced   - protein alone does NOT aggregate under the assay conditions;
                     lipid can only trigger/accelerate (so "no effect" != inhibition)
-  inhibition      - protein DOES aggregate; lipid is tested for its ability to reduce it
+  aggregating_baseline - protein DOES aggregate on its own (e.g. agitation / neutral pH);
+                    a lipid can either reduce OR further accelerate it (both are informative)
   (This distinction is essential: a "no_detectable_effect" in a lipid_induced assay is
    NOT evidence of inhibition, because the control also shows no aggregation.)
 
@@ -83,6 +84,17 @@ PAPERS = [
          notes="Lipid-induced paradigm at pH 5.5. Candidate-relevant: DOPC (no aggregation), GM1 "
                "(acceleration). Explicitly notes GM1 vesicles INHIBIT at neutral pH (ref 67), i.e. "
                "opposite direction - the key condition-dependence for GM1."),
+    dict(paper_id="matveyenka2024", authors="Matveyenka M, Ali A, Mitchell CL, Brown HC, Kurouski D",
+         year=2024, title="Cholesterol Accelerates Aggregation of alpha-Synuclein Simultaneously Increasing the Toxicity of Amyloid Fibrils",
+         journal="ACS Chemical Neuroscience", doi="10.1021/acschemneuro.4c00501", pmid="39469734",
+         pmcid="PMC11587506", access_status="full_text", role="primary_aggregation",
+         notes="AGGREGATING-BASELINE paradigm: 40 uM alpha-syn in PBS pH 7.4, 37 C, 510 rpm SHAKING, "
+               "1:1 lipid:protein, LUVs, 2 mM ThT - protein aggregates alone (t1/2~82 h) and lipids modulate. "
+               "FIRST paper here with explicit numeric t_lag and t1/2. Directly tests CHOLESTEROL and DPPC "
+               "(both candidates). Key results: pure DPPC and 60% cholesterol ACCELERATE (shorten lag/t1/2); "
+               "15-30% cholesterol no effect. Cites Dou et al. that DMPC strongly SUPPRESSES but DPPC does not "
+               "(a 14->16 carbon change flips the effect). NOTE: this CONTRADICTS a naive 'ordered lipids are "
+               "protective' expectation - see docs/chemistry_rules.md Rule 8 revision."),
     dict(paper_id="tht_assay2018", authors="Mahls A, et al. (Bio-protocol)",
          year=2018, title="alpha-Synuclein Aggregation Monitored by Thioflavin T Fluorescence Assay",
          journal="Bio-protocol", doi="", pmid="", pmcid="PMC6066150",
@@ -122,7 +134,7 @@ _m_common = dict(paper="martinez2007", assay_type="ThT_fibrillation",
                  protein_variant="WT", protein_conc_uM="", buffer="",
                  pH="", salt_mM="", temp_C="", agitation="", plate="",
                  tht_uM="", formulation="SUV", prep_method="", vesicle_size_nm="",
-                 seeding="unseeded", obs_h="", assay_paradigm="inhibition",
+                 seeding="unseeded", obs_h="", assay_paradigm="aggregating_baseline",
                  source_page="abstract")
 CONDITIONS += [
     C(condition_id="martinez2007_c01", **_m_common,
@@ -626,6 +638,75 @@ CONDITIONS += [
                      "than gangliosides", quality_flag="digitization_pending")]),
 ]
 
+# ============================= MATVEYENKA 2024 (cholesterol/DPPC, aggregating baseline) =====
+# common: 40 uM WT aSyn, PBS pH 7.4, 37 C, 510 rpm shaking, 1:1 lipid:protein, LUV 100nm, 2 mM ThT
+_mv = dict(paper="matveyenka2024", assay_type="ThT_kinetics", protein_variant="WT",
+           protein_conc_uM=40, buffer="PBS", pH=7.4, salt_mM=137, temp_C=37, tht_uM=2000,
+           agitation="510 rpm", plate="96-well (Tecan)", formulation="LUV",
+           prep_method="extrusion 100 nm", vesicle_size_nm=100, seeding="unseeded", obs_h=160,
+           assay_paradigm="aggregating_baseline", source_page="")
+CONDITIONS += [
+    C(condition_id="matveyenka2024_ctrl", **{**_mv, "formulation": "none"},
+      label="alpha-syn alone (lipid-free)",
+      components=[],
+      measurements=[
+        M(endpoint="half_time", value=82, unit="h", evidence_category="direct_aggregation",
+          effect_direction="not_applicable", evidence_type="measured_text", source_fig="Fig 3C",
+          source_quote="all lipid-free environment ( t 1/2 = 82 h)"),
+        M(endpoint="lag_time", value=16.4, unit="h", evidence_category="direct_aggregation",
+          effect_direction="not_applicable", evidence_type="measured_text", source_fig="Fig 3B",
+          source_quote="alpha-Syn aggregated with a lag-phase ( t lag ) of ~16.4 h")]),
+    C(condition_id="matveyenka2024_dppc", **_mv, label="100% DPPC LUV, 1:1",
+      components=[dict(lipid_id="DPPC", mol_fraction=1.0, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=40, role="main", note="")],
+      measurements=[
+        M(endpoint="lag_time", value=12.3, unit="h", evidence_category="direct_aggregation",
+          effect_direction="acceleration", evidence_type="measured_text", source_fig="Fig 3B",
+          control_id="matveyenka2024_ctrl",
+          source_quote="100% DPPC ( t lag = 12.3 h) drastically shortened t lag of alpha-syn aggregation"),
+        M(endpoint="effect_direction", value_text="accelerates_shortens_lag",
+          evidence_category="direct_aggregation", effect_direction="acceleration",
+          evidence_type="qualitative_text", source_fig="Fig 3", control_id="matveyenka2024_ctrl",
+          source_quote="Dou and co-workers previously reported that the presence of LUVs composed of C14:0 PC "
+                       "(DMPC) strongly suppressed alpha-Syn aggregation ... such effects were not observed for "
+                       "DPPC ... a change in the two carbon atoms in the fatty acids of PC caused a major effect")]),
+    C(condition_id="matveyenka2024_chol15", **_mv, label="15:85 Cholesterol:DPPC LUV, 1:1",
+      components=[dict(lipid_id="Cholesterol", mol_fraction=0.15, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=6, role="sterol_additive", note=""),
+                  dict(lipid_id="DPPC", mol_fraction=0.85, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=34, role="main", note="")],
+      measurements=[
+        M(endpoint="half_time", value=79.5, unit="h", evidence_category="direct_aggregation",
+          effect_direction="no_detectable_effect", evidence_type="measured_text", source_fig="Fig 3C",
+          control_id="matveyenka2024_ctrl",
+          source_quote="This effect was not observed for LUVs composed of 15:85 (79.5 h) and 30:70 (79.3 h) Cho/DPPC")]),
+    C(condition_id="matveyenka2024_chol30", **_mv, label="30:70 Cholesterol:DPPC LUV, 1:1",
+      components=[dict(lipid_id="Cholesterol", mol_fraction=0.30, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=12, role="sterol_additive", note=""),
+                  dict(lipid_id="DPPC", mol_fraction=0.70, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=28, role="main", note="")],
+      measurements=[
+        M(endpoint="half_time", value=79.3, unit="h", evidence_category="direct_aggregation",
+          effect_direction="no_detectable_effect", evidence_type="measured_text", source_fig="Fig 3C",
+          control_id="matveyenka2024_ctrl",
+          source_quote="15:85 (79.5 h) and 30:70 (79.3 h) Cho/DPPC")]),
+    C(condition_id="matveyenka2024_chol60", **_mv, label="60:40 Cholesterol:DPPC LUV, 1:1",
+      components=[dict(lipid_id="Cholesterol", mol_fraction=0.60, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=24, role="sterol_additive", note="high cholesterol"),
+                  dict(lipid_id="DPPC", mol_fraction=0.40, fraction_basis="molar",
+                       total_lipid_uM=40, component_conc_uM=16, role="main", note="")],
+      measurements=[
+        M(endpoint="half_time", value=61, unit="h", evidence_category="direct_aggregation",
+          effect_direction="acceleration", evidence_type="measured_text", source_fig="Fig 3C",
+          control_id="matveyenka2024_ctrl",
+          source_quote="LUVs composed of 60:40 Cho/DPPC drastically accelerated the rate of alpha-Syn "
+                       "aggregation ( t 1/2 = 61 h) compared to all lipid-free environment ( t 1/2 = 82 h)"),
+        M(endpoint="lag_time", value=12.2, unit="h", evidence_category="direct_aggregation",
+          effect_direction="acceleration", evidence_type="measured_text", source_fig="Fig 3B",
+          control_id="matveyenka2024_ctrl",
+          source_quote="LUVs composed of 60:40 Cho/DPPC ( t lag = 12.2 h) ... drastically shortened t lag")]),
+]
+
 # Secondary-literature cross-reference (NOT a measured record; recorded as a flagged note):
 CROSS_REFS = [
     dict(claim="GM1 vesicles inhibit alpha-syn aggregation at neutral pH (opposite of pH 5.5)",
@@ -637,6 +718,20 @@ CROSS_REFS = [
          evidence_type="secondary_citation",
          note="Corroborates Martinez 2007 direction (inhibition) and locates it at neutral pH. Treated as "
               "supporting context, not a primary measured record."),
+    dict(claim="DMPC (C14:0 PC) strongly SUPPRESSES alpha-syn aggregation, whereas DPPC (C16:0 PC) does not",
+         asserted_in="matveyenka2024 (citing Dou et al., ref 33)",
+         source_quote="Dou and co-workers previously reported that the presence of LUVs composed of C14:0 PC "
+                      "(DMPC) strongly suppressed alpha-Syn aggregation ... such effects were not observed for DPPC",
+         evidence_type="secondary_citation",
+         note="PRIORITY download: the Dou et al. primary paper has the DMPC suppression ThT data (DMPC is a "
+              "candidate). Shows a 2-carbon change (14:0 fluid -> 16:0 gel) flips PC from suppressor to inert."),
+    dict(claim="Cholesterol enhances alpha-syn-membrane interaction, accelerating aggregation",
+         asserted_in="matveyenka2024 (citing Jakubec et al., ref 35) + own data",
+         source_quote="Jakubec and co-workers found that in lipid membranes, cholesterol (Cho) enhances "
+                      "protein-membrane interactions. This results in acceleration of alpha-Syn aggregation",
+         evidence_type="secondary_citation",
+         note="Supports the matveyenka2024 primary finding that 60% cholesterol accelerates (via increased "
+              "membrane hydrophobicity), contradicting a naive 'cholesterol orders membranes -> protective' view."),
 ]
 
 if __name__ == "__main__":

@@ -1,10 +1,10 @@
 condition_id,paper_id,label,driver_lipid,driver_class,driver_charge,driver_mean_chain_C,driver_total_db,driver_is_ganglioside,driver_is_natural_mix,anionic_mol_fraction,n_components,formulation,pH,temp_C,agitation,protein_conc_uM,lipid_to_protein_ratio,assay_paradigm,effect_direction,effect_score,effect_class
-martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,GM1,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
-martinez2007_c02,martinez2007,GM2 SUVs + WT,GM2,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
-martinez2007_c03,martinez2007,GM3 SUVs + WT,GM3,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
-martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,AsialoGM1,glycosphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
-martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,BrainGangliosides,ganglioside,-1.0,,,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
-martinez2007_c06,martinez2007,other sphingolipids + WT,SM,sphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,inhibition,no_detectable_effect,0.0,neutral
+martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,GM1,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,aggregating_baseline,inhibition,-1.0,reduce
+martinez2007_c02,martinez2007,GM2 SUVs + WT,GM2,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,aggregating_baseline,inhibition,-1.0,reduce
+martinez2007_c03,martinez2007,GM3 SUVs + WT,GM3,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,aggregating_baseline,inhibition,-1.0,reduce
+martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,AsialoGM1,glycosphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,aggregating_baseline,inhibition,-1.0,reduce
+martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,BrainGangliosides,ganglioside,-1.0,,,1,1,,1,SUV,,,unknown,,,aggregating_baseline,inhibition,-1.0,reduce
+martinez2007_c06,martinez2007,other sphingolipids + WT,SM,sphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,aggregating_baseline,no_detectable_effect,0.0,neutral
 grey2015_c_exo_naive,grey2015,"exosomes (naive N2a) 0.25 mg/ml, shaking",natural_exosome,unknown,,,,0,0,,1,exosome,5.5,37.0,shaking,30.0,,lipid_induced,strong_acceleration,2.0,accelerate
 grey2015_c_dopc,grey2015,DOPC SUV 0.2 mM,DOPC,PC,0.0,18.0,2.0,0,0,,1,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
 grey2015_c_dopc_dops30,grey2015,DOPC + 30% DOPS SUV 0.2 mM,DOPS,PS,-1.0,18.0,2.0,0,0,0.3,2,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
@@ -34,3 +34,4 @@ gaspar2018_c_dopc,gaspar2018,pure DOPC SUV,DOPC,PC,0.0,18.0,2.0,0,0,,1,SUV,5.5,3
 gaspar2018_c_asialogm1,gaspar2018,DOPC:Asialo-GM1 9:1 SUV,AsialoGM1,glycosphingolipid,0.0,18.0,0.0,0,1,,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,weak_acceleration,0.5,accelerate
 gaspar2018_c_cerpeg,gaspar2018,DOPC:Cer-PEG750 9:1 SUV,Cer-PEG750,PEG-lipid,0.0,16.0,0.0,0,0,,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,weak_acceleration,0.5,accelerate
 gaspar2018_c_pepeg,gaspar2018,DOPC:PE-PEG750 9:1 SUV,PE-PEG750,PEG-lipid,-1.0,18.0,0.0,0,0,0.1,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,acceleration,1.0,accelerate
+matveyenka2024_dppc,matveyenka2024,"100% DPPC LUV, 1:1",DPPC,PC,0.0,16.0,0.0,0,0,,1,LUV,7.4,37.0,shaking,40.0,1.0,aggregating_baseline,acceleration,1.0,accelerate

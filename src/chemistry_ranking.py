@@ -32,12 +32,12 @@ CANDIDATES = ["GM1", "Cholesterol", "SM", "DMPC", "DPPC", "DSPC", "DOPC", "POPC"
 
 # evidence confidence from the pilot dataset (how much DIRECT aggregation data exists)
 CONFIDENCE = {
-    "GM1": "moderate (multiple papers; but pH-conflicted)",
+    "GM1": "moderate (multiple papers; pH-conflicted)",
     "DOPC": "moderate (pure DOPC tested: inert/mild retardation)",
-    "Cholesterol": "low (one additive test: no initiation)",
-    "DMPC": "low (only as DMPS diluent)",
+    "Cholesterol": "moderate (Matveyenka 2024: accelerates at 60%, inert <=30%)",
+    "DMPC": "low-moderate (DMPS diluent + Dou: DMPC strongly suppresses)",
     "SM": "very low (abstract: 'negligible interaction')",
-    "DPPC": "none (prediction from rules only)",
+    "DPPC": "moderate (Matveyenka 2024: pure DPPC shortens lag / accelerates)",
     "DSPC": "none (prediction from rules only)",
     "POPC": "none (prediction from rules only)",
 }
@@ -78,8 +78,13 @@ def triggering_T(lip, temp, pH, ratio_high):
             base = 3.0
         else:
             base = 0.5          # long/unsaturated anionic: binds but does not trigger
+    elif cls == "sterol":
+        # REVISED after Matveyenka 2024: cholesterol raises membrane hydrophobicity and
+        # ACCELERATES aggregation at HIGH mol% (60%); inert at <=30%. Fraction-dependent;
+        # this generic term reflects its promoting tendency at high loading.
+        base = 1.0
     else:
-        base = 0.0              # zwitterionic / sterol: do not trigger
+        base = 0.0              # zwitterionic PC/PE/SM: do not themselves trigger
     # pH: neutral strongly suppresses triggering (alpha-syn repulsion high; and gangliosides
     # flip to inhibition at neutral pH). acidic = full triggering.
     pH_factor = 1.0 if pH < 6.5 else (0.5 if pH < 7.0 else 0.15)
@@ -97,22 +102,27 @@ def sequestration_I(lip, temp, pH, ratio_high):
 
 
 def ordering_O(lip, temp):
-    """Raft-like, defect-poor packing lowers heterogeneous-nucleation site density.
-    Mechanistic hypothesis; weighted low. Only meaningful when the lipid is a major
-    membrane component."""
+    """Passive protection by a NEUTRAL lipid (named O for continuity).
+
+    REVISED after Matveyenka 2024 + the Dou DMPC result: protection among neutral lipids
+    does NOT come from raft ordering (cholesterol accelerates at high mol%; gel DPPC does
+    NOT suppress and shortens lag). It comes from WEAK SEQUESTRATION, which needs enough
+    binding - i.e. a FLUID neutral bilayer. So: fluid short saturated PC (DMPC, which Dou
+    et al. found strongly suppresses) > fluid unsaturated PC (DOPC/POPC, mild retardation)
+    > gel PC (DPPC/DSPC: bind too little, can mildly promote) ~ cholesterol (promotes)."""
     cls = lip["lipid_class"]
     charge = _f(lip["net_charge_phys"])
-    if cls == "sterol":
-        return 1.0
     if charge is not None and charge < 0:
-        return 0.0
-    if cls in ("sphingolipid",) or (not is_fluid(lip, temp)):  # SM / gel saturated PC
-        return 0.7
+        return 0.0                    # anionic handled by Iseq
+    if cls == "sterol":
+        return 0.0                    # cholesterol is NOT protective (see triggering_T)
     meanC = _f(lip["mean_chain_carbons"]) or 0
     db = _f(lip["total_double_bonds"]) or 0
-    if db == 0 and meanC <= 14:      # DMPC: fluid but saturated
-        return 0.3
-    return 0.1                        # unsaturated loose (DOPC/POPC)
+    if not is_fluid(lip, temp):        # gel PC (DPPC/DSPC) or near-gel SM: too little binding
+        return 0.0
+    if db == 0 and meanC <= 14:        # DMPC: fluid + saturated -> binds + sequesters [Dou]
+        return 0.6
+    return 0.25                        # fluid unsaturated PC (DOPC/POPC): mild retardation
 
 
 def _f(x):
