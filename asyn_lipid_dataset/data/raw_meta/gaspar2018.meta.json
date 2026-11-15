@@ -1,0 +1,228 @@
+{
+  "id": "30077783",
+  "source": "MED",
+  "pmid": "30077783",
+  "pmcid": "PMC6121081",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC6121081"
+    ]
+  },
+  "doi": "10.1016/j.bbapap.2018.07.004",
+  "title": "Ganglioside lipids accelerate \u03b1-synuclein amyloid formation.",
+  "authorString": "Gaspar R, Pallbo J, Weininger U, Linse S, Sparr E.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Gaspar R",
+        "lastName": "Gaspar",
+        "firstName": "Ricardo",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6454-7633"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Departments of Physical-Chemistry, Lund University, Sweden; Biochemistry and Structural Biology, Lund University, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pallbo J",
+        "lastName": "Pallbo",
+        "firstName": "Jon",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3652-3551"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Departments of Physical-Chemistry, Lund University, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Weininger U",
+        "lastName": "Weininger",
+        "firstName": "Ulrich",
+        "initials": "U",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Physics, Martin-Luther-University Halle-Wittenberg, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Linse S",
+        "lastName": "Linse",
+        "firstName": "Sara",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Biochemistry and Structural Biology, Lund University, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sparr E",
+        "lastName": "Sparr",
+        "firstName": "Emma",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8343-9657"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Departments of Physical-Chemistry, Lund University, Sweden. Electronic address: emma.sparr@fkem1.lu.se."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-8343-9657"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-6454-7633"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-3652-3551"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics"
+    ]
+  },
+  "journalInfo": {
+    "journalIssueId": 2729341,
+    "dateOfPublication": "2018 Aug",
+    "monthOfPublication": 8,
+    "yearOfPublication": 2018,
+    "journal": {
+      "medlineAbbreviation": "Biochim Biophys Acta Proteins Proteom",
+      "title": "Biochimica et biophysica acta. Proteins and proteomics",
+      "essn": "1878-1454",
+      "issn": "1570-9639",
+      "isoabbreviation": "Biochim Biophys Acta Proteins Proteom",
+      "nlmid": "101731734"
+    },
+    "printPublicationDate": "2018-08-01"
+  },
+  "pubYear": "2018",
+  "pageInfo": "S1570-9639(18)30116-X",
+  "abstractText": "The deposition of \u03b1-synuclein fibrils is one hallmark of Parkinson's disease. Here, we investigate how ganglioside lipids, present in high amounts in neurons and exosomes, influence the aggregation kinetics of \u03b1-synuclein. Gangliosides, as well as, other anionic lipid species with small or large headgroups were found to induce conformational changes of \u03b1-synuclein monomers and catalyse their aggregation at mildly acidic conditions. Although the extent of this catalytic effect was slightly higher for gangliosides, the results imply that charge interactions are more important than headgroup chemistry in triggering aggregation. In support of this idea, uncharged lipids with large headgroups were not found to induce any conformational change and only weakly catalyse aggregation. Intriguingly, aggregation was also triggered by free ganglioside headgroups, while these caused no conformational change of \u03b1-synuclein monomers. Our data reveal that partially folded \u03b1-synuclein helical intermediates are not required species in triggering of \u03b1-synuclein aggregation.",
+  "affiliation": "Departments of Physical-Chemistry, Lund University, Sweden; Biochemistry and Structural Biology, Lund University, Sweden.",
+  "publicationStatus": "aheadofprint",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "Swedish Research Council",
+        "grantId": "2015-00142",
+        "orderIn": 0
+      },
+      {
+        "agency": "Knut and Alice Wallenberg Foundation",
+        "grantId": "2014.0074",
+        "orderIn": 0
+      },
+      {
+        "agency": "European Research Council",
+        "acronym": "ERC_",
+        "grantId": "340890-MAMBA",
+        "orderIn": 0
+      },
+      {
+        "agency": "Swedish Research Council",
+        "grantId": "2014-07497",
+        "orderIn": 0
+      },
+      {
+        "agency": "Swedish Foundation for Strategic Research",
+        "grantId": "2015-04248",
+        "orderIn": 0
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.bbapap.2018.07.004"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC6121081"
+      }
+    ]
+  },
+  "commentCorrectionList": {
+    "commentCorrection": [
+      {
+        "source": "MED",
+        "id": "30878495",
+        "reference": "Biochim Biophys Acta Proteins Proteom. 2019 May;1867(5):508-518. doi: 10.1016/j.bbapap.2019.02.003",
+        "type": "Reprint in",
+        "orderIn": 1
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 59,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "N",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2018-08-06",
+  "dateOfRevision": "2024-02-27",
+  "electronicPublicationDate": "2018-08-02",
+  "firstPublicationDate": "2018-08-02",
+  "firstIndexDate": "2018-08-06",
+  "fullTextReceivedDate": "2025-02-04",
+  "embargoDate": "2018-10-01",
+  "hasEvaluations": "N"
+}

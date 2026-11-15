@@ -1,0 +1,192 @@
+TITLE: α-Synuclein Aggregation Monitored by Thioflavin T Fluorescence Assay
+
+ABSTRACT:
+Abstract Studying the aggregation of amyloid proteins like α-synuclein in vitro is a convenient and popular tool to gain kinetic insights into aggregation as well as to study factors ( e.g. , aggregation inhibitors) that influence it. These aggregation assays typically make use of the fluorescence dye Thioflavin T as a sensitive fluorescence reporter of amyloid fibril formation and are conducted in a plate-reader-based format, permitting the simultaneous screening of multiple samples and conditions. However, aggregation assays are generally prone to poor reproducibility due to the stochastic nature of fibril nucleation and the multiplicity of modulating factors. Here we present a simple and reproducible protocol to study the aggregation of α-synuclein in a plate-reader based assay. Keywords: Amyloid, Aggregation, α-Synuclein, Thioflavin T assay, Parkinson’s disease
+
+==== BODY ====
+
+## Abstract
+Studying the aggregation of amyloid proteins like α-synuclein in vitro is a convenient and popular tool to gain kinetic insights into aggregation as well as to study factors ( e.g. , aggregation inhibitors) that influence it. These aggregation assays typically make use of the fluorescence dye Thioflavin T as a sensitive fluorescence reporter of amyloid fibril formation and are conducted in a plate-reader-based format, permitting the simultaneous screening of multiple samples and conditions. However, aggregation assays are generally prone to poor reproducibility due to the stochastic nature of fibril nucleation and the multiplicity of modulating factors. Here we present a simple and reproducible protocol to study the aggregation of α-synuclein in a plate-reader based assay.
+Keywords: Amyloid, Aggregation, α-Synuclein, Thioflavin T assay, Parkinson’s disease
+
+## Background
+Aggregation of endogenous proteins to amyloid fibrils is a pathogenic process that is associated with several disorders, e.g. , neurodegenerative diseases like Alzheimer’s disease (AD) or Parkinson’s disease (PD) as well as systemic diseases like AL amyloidosis ( Knowles et al. , 2014 ). This process can be recapitulated in vitro in a plate-reader-based setup by aggregation assays based on Thioflavin T fluorescence, allowing the aggregation kinetics of amyloid proteins to be studied in dependence of various influencing factors.
+Thioflavin T (ThT) is a fluorescence dye that has first been used for staining amyloid fibrils in histological samples by Vassar and Culling in 1959 ( Vassar and Culling, 1959 ), its application for detecting and quantifying amyloid fibrils in vitro has first been described by Naiki et al. in 1989 ( Naiki et al. , 1989 ). Upon binding within the cross-β-architecture of amyloid fibrils, ThT changes its spectral characteristics (bathochromic wavelength shift to λ ex : 450 nm and λ em : 482 nm) and exhibits a strong increase in fluorescence emission ( Biancalana and Koide, 2010 ). It is therefore a very sensitive indicator of amyloid fibril formation and has been adapted to aggregation assays with synthetically and recombinantly produced amyloidogenic proteins, like the AD-associated protein amyloid-β ( LeVine, 1993 ) as well as the PD-associated protein α-synuclein ( Hashimoto et al. , 1998 ).
+Aggregation assays with Thioflavin T are nowadays mainly performed in fluorescence plate readers, where e.g ., 96 conditions can be tested simultaneously. These assays suffer from poor reproducibility resulting from the stochastic nature of fibril nucleation and the multiplicity of factors affecting protein aggregation. Therefore, strategies to increase the reproducibility of ThT assays have been employed, such as the use of orbital shaking of the well plate during the measurement as well as the addition of glass beads to the wells to improve mixing ( Giehm and Otzen, 2010 ).
+Here, we describe a simple protocol for α-synuclein aggregation assays using ThT that comprises the following strategies to improve reproducibility and convenience:
+The use of N-terminally acetylated α-synuclein, which is the native state of the protein ( Anderson et al. , 2006 ). N-terminal acetylation of α-synuclein also increases reproducibility of aggregation half times in ThT assays ( Iyer et al. , 2016 ).
+Thirty seconds of shaking prior to the ThT fluorescence measurement leads to more reproducible fluorescence readings due to a more homogenous distribution of fibrils within the sample, including aggregation nuclei that preferentially form at the air-water-interface ( Campioni et al. , 2014 ).
+Glass beads (Ø 2.85-3.45 mm) are added to each well to improve mixing and homogeneity of the sample as described ( Giehm and Otzen, 2010 ).
+We use half-area 96-well-plates (Corning, USA) that have a non-binding surface. Half-area wells save sample volume, as only 100-120 μl is needed per well. The non-binding surface e.g. , prevents adsorption of amyloid fibrils to the well surface, a process that can cause aberrant readings in ThT assays ( Murray et al. , 2013 ).
+
+## Materials and Reagents
+50 ml Falcon centrifuge tubes (TPP Techno Plastic Products, catalog number: 91050)
+Sterile syringe filter, Filtropur S, 0.2 μm (SARSTEDT, catalog number: 83.1826.001)
+Slide-A-Lyzer TM dialysis cassettes 10 kDA MW cutoff, 3-12 ml (Thermo Fisher Scientific, catalog number: 66810)
+HiTrap Q HP IEC column, 5 ml (GE Healthcare, catalog number: 17115401)
+Superdex 75 16/60 SEC column, ~120 ml volume (GE Healthcare, catalog number: 28989333)
+Protein LoBind Tubes 1.5 ml (Eppendorf, catalog number: 0030108116)
+96-well plates (Corning half-area, black and clear flat bottom, non-binding surface) (Corning, catalog number: 3881)
+Sealing tape, clear polyolefin (Thermo Fisher Scientific, catalog number: 232701)
+E. coli BL21DE3 competent cells ( e.g. , available from Merck, catalog number: 69450)
+α-Synuclein in pT7-7 vector ( e.g. , Addgene, catalog number: 36046)
+We use a version of this plasmid that is codon-optimized for E. coli
+NatB in pACYCduet vector ( e.g. , Addgene, catalog number: 53613)
+Isopropyl β-D-1-thiogalactopyranoside (IPTG), > 99% (Ubiquitin-Proteasome Biotechnologies, catalog number: P1010-100)
+Ampicillin sodium salt (Sigma-Aldrich, catalog number: A9518)
+Chloramphenicol (Sigma-Aldrich, catalog number: C0378)
+YT medium (2x) premixed powder (AppliChem, catalog number: A0981)
+Magnesium sulfate heptahydrate p.a. (Merck, catalog number: 1058860500)
+Glycerol bidistilled, ≥ 99.5% (VWR, catalog number: 24388)
+Tris(hydroxymethyl)aminomethane, Trizma base p.a. (Sigma-Aldrich, catalog number: 93350)
+Sodium chloride, p.a. (Carl Roth, catalog number: 3957)
+Sodium dihydrogen phosphate monohydrate, p.a. (AppliChem, catalog number: 131965.1211)
+α-Synuclein, N-terminally acetylated (from recombinant expression in E. coli [ Johnson et al. , 2010 ] and purified as described [ Wördehoff et al. , 2017 ])
+Note: We verify N-terminal acetylation by HPLC and mass spectrometry. Alternatively, acetic acid gel electrophoresis can be performed ( Iyer et al., 2016 ). We have included a short description of our α-synuclein purification protocol in the procedure section of this protocol.
+Thioflavin T, ultrapure grade (AnaSpec, catalog number: AS-88306)
+Sodium azide ( purum p.a. , Sigma-Aldrich, catalog number: 71290)
+H 2 O (Milli-Q ≥ 18.2 MΩ resistivity)
+Glass beads, Ø 2.85-3.45 mm (Carl Roth, catalog number: A557.1), stored in 70% ethanol to ensure sterility
+Potassium dihydrogen phosphate ( p.a. , AppliChem, catalog number: A1043)
+Dipotassium hydrogen phosphate, trihydrate ( p.a. , Merck, catalog number: 105099)
+Potassium chloride ( p.a. , Carl Roth, catalog number: 6781.1)
+Hydrochloric acid, p.a. ≥ 37% (Sigma-Aldrich, catalog number: 30721-M)
+Ammonium sulfate, puriss. p.a. ≥ 99% (Merck, catalog number: 31119-M)
+Modified 2YT medium (see Recipes)
+10x Medium buffer, pH 7.2 (see Recipes)
+IEC buffer A (see Recipes)
+IEC buffer B (see Recipes)
+Saturated ammonium sulfate solution (see Recipes)
+SEC buffer (see Recipes)
+
+## Equipment
+Pipettes ( e.g. , Eppendorf, model: Research ® Plus, catalog numbers: 3123000039, 3123000055, 3123000063)
+Sterile tweezers
+-80 °C freezer
+Fluorescence plate reader ( e.g. , BMG LABTECH, model: FLUOstar Omega), equipped with monochromators or appropriate filters for the fluorophore Thioflavin T ( e.g. , BMG excitation filter: 448(nm)-10, BMG emission filter: 482(nm)-10)
+The plate reader should be heatable to 37 °C
+UV/VIS spectrophotometer ( e.g. , JASCO, model: V-650)
+Heating Block ( e.g. , Grant Instruments, model: UBD2)
+Magnetic stirrer ( e.g ., Cole-Parmer Instrument, Stuart, model: CB161)
+Centrifuge for 50 ml Falcons ( e.g. , Eppendorf, model: 5804 R)
+ÄKTA Purifier (GE Healthcare)
+
+## Software
+Microsoft Excel
+AmyloFit ( http://www.amylofit.ch.cam.ac.uk/ )
+
+## Procedure
+Purification of acetylated α-synuclein
+Here we briefly describe how we purify our acetylated α-synuclein, as described in Wördehoff et al. , 2017 . As this protocol focusses on the aggregation of α-synuclein monitored by Thioflavin T fluorescence, the purification is described as concisely as possible.
+We coexpress codon-optimized α-synuclein in the pT7-7 vector together with the vector pNatB containing the N-terminal acetylation enzyme NatB from Schizosaccharomyzes pombe as described by Johnson et al. , 2010 .
+Expression is conducted in E. coli BL21DE3 grown in 2YT medium supplemented with 50 mM K/Na-phosphate buffer pH 7.2, 2 mM MgSO 4 and 0.4% glycerol (v/v), with 100 μg/ml ampicillin and 35 μg/ml chloramphenicol as selection markers. We inoculate the (pre-)culture from a glycerol stock that has been prepared by overnight growth of a single colony in 2YT medium, mixed with 50% glycerol (sterile) and stored at -80 °C.
+After pregrowth to OD 600 of 1-1.2, expression is induced by addition of 1 mM Isopropyl β-D-1-thiogalactopyranoside (IPTG) and incubated while shaking at 120 rpm for 4 h at 37 °C. We routinely prepare 500 ml culture, which gives us a final expression yield of ~25 mg acetylated α-synuclein.
+Cells are harvested by centrifugation at 6,000 × g for 15 min at 4 °C.
+An individual cell pellet (from 500 ml culture) is resuspended in 15 ml of pure H 2 O and frozen at -20 °C in 50 ml Falcon tubes.
+The Falcon tubes with the frozen cell suspension are transferred to a heat block preheated to 98 °C and incubated for 30 min to both lyse the cells and precipitate proteins by heat denaturation. α-Synuclein is thermostable and remains soluble.
+Cell lysate is cooled down on ice for 10 min, afterward cell debris and precipitated proteins are pelleted at 15,000 × g and 4 °C for 30 min.
+The supernatant is then filtered through a 0.2 μm filter into a new 50 ml tube.
+Saturated ammonium sulfate solution (~4.3 M at room temperature) is added in 1-ml steps to the supernatant to 50% saturation (1:1) while stirring on a magnetic stirrer, thereby precipitating α-synuclein, nucleic acids largely remain soluble.
+The turbid solution is then incubated on ice for 20 min and pelleted at 15,000 × g and 4 °C for 30 min.
+Supernatant is discarded and the pellet is resuspended in 50 ml of IEC buffer A (optional: dissolve in 5 ml IEC buffer A and dialyzed overnight against 1 L of IEC buffer A).
+The solution is then loaded onto a 5 ml HiTrap Q HP ion exchange chromatography column (GE Healthcare) connected to an ÄKTA purifier system (GE Healthcare), equilibrated in IEC buffer A.
+α-Synuclein elutes at around 250 mM NaCl on a 0-500 mM NaCl gradient to IEC buffer B, run over 100 ml at 2.5 ml/min.
+Fractions containing α-synuclein are combined, again precipitated by ammonium sulfate and pelleted as described above.
+The pellet is resuspended in 4 ml SEC buffer and finally purified in two runs by size exclusion chromatography (SEC) on a Superdex 75 16/60 column (120 ml column volume, GE Healthcare) at 1 ml/min in SEC buffer.
+After SEC, α-synuclein is sterile-filtered through a 0.2 μm filter and the concentration is measured on a spectrophotometer, using and extinction coefficient of 5,600 M -1 cm -1 at 275 nm.
+α-Synuclein is aliquoted, flash-frozen in liquid nitrogen and stored at -80 °C.
+General preparation
+Prepare stock solutions: 1 mM Thioflavin T in H 2 O, 10% (w/v) sodium azide in H 2 O. We use Thioflavin T solutions for a year; sodium azide solution is prepared fresh every month (both stored in the fridge at 4-8 °C).
+Buffers and protein solutions should be filter sterilized. As α-synuclein is sensitive to degradation, aliquots of α-synuclein should be stored at -80 °C and defrosted just before the assay.
+Calculate the amounts of reagents to pipette. For triplicate measurements, 400 μl sample per condition is needed (3x 120 μl, 40 μl reserve). In order to avoid that the ThT fluorescence saturates before the equilibrium of fibril formation is reached, a sufficiently high ThT concentration on the order of the applied protein concentration should be used. We typically use 10-20 μM ThT and 0.05% sodium azide (final concentrations).
+Include a negative control, which consists of buffer, salts, Thioflavin T and sodium azide.
+Preheat your plate reader to 37 °C. Aggregation assays can be performed at different temperatures, e.g. , between 20 °C and 37 °C. However, we routinely use 37 °C as it is the human body temperature and α-synuclein aggregation is quite slow at lower temperatures.
+Prepare the plate: with sterile tweezers, take out as many glass beads as you need (out of the 70% ethanol solution), dry them shortly on a lint-less cloth and transfer them into the wells–choose glass beads of homogenous size. As the glass beads we use are slightly heterogeneous in terms of size and shape, we sort out glass beads with a small and large diameter, as well as glass beads that are not spherical by visual inspection. In general, the addition of glass beads is crucial to speed up aggregation and increase reproducibility of triplicates.
+We always leave the outer wells of the plate empty; they can give unexpected readings, so first well to use is B2, last well is G11.
+Optional: Pipette 120 μl water into the spaces between the wells and idle wells–this can be done to minimize possible evaporation from the sample wells.
+Prepare and label a sufficient amount of 1.5 ml protein low-bind reaction tubes and transfer tubes onto ice, do the subsequent pipetting steps on ice.
+Sample preparation
+Pipette the reagents, starting with the buffer, then sodium azide, Thioflavin T and lastly the protein solution into the 1.5 ml reaction tubes. As an example, this is the pipetting scheme for 400 μl of the 50 μM α-synuclein sample shown in Figure 1 , assuming stock concentrations of 200 μM for α-synuclein, 1 mM Thioflavin T, and 10% sodium azide:
+294 μl of SEC buffer
+2 μl of 10% sodium azide
+4 μl of 1 mM Thioflavin T
+100 μl of α-synuclein (in SEC buffer)
+Shortly (1 sec) vortex the samples to mix them and put them back on ice.
+Distribute 120 μl of sample per well.
+Seal plate with the sealing tape and transfer it to the plate reader.
+Plate reader settings
+We use a fluorescence plate reader (FLUOstar Omega by BMG LABTECH), assay temperature: 37 °C.
+Basic parameters: Microplate: Greiner 96 half area; Excitation filter: 448-10; Emission filter: 482-10; Gain: 750; Orbital Averaging–On: 3 mm, Bottom Optic, Settling time: 1 sec; Kinetic Window: 1,000 cycles, 12 flashes per well and cycle, cycle time: 900 sec.
+Layout : Mark the distribution of your samples.
+Shaking options : Orbital, 400 rpm, 30 sec before each cycle. Shaking is crucial to speed up aggregation and improve reproducibility of triplicates.
+Samples are run until fluorescence plateaus are reached.
+See also the appendix for the plate reader settings.
+
+## Data analysis
+This section should guide the reader through the data analysis. We have included two exemplary aggregation assays of α-synuclein, the first showing the aggregation of α-synuclein at different concentrations ( Figure 1 ), the second demonstrating the influence of an aggregation inhibitor (dityrosine-crosslinked α-synuclein), adapted from Wördehoff et al. , 2017 ( Figure 2 ).
+After the assay, we first calculate the mean of the negative control triplicates, i.e. , the background fluorescence of Thioflavin T in our buffer, and subtract this mean background fluorescence from each of the sample triplicates at the given time points, e.g. , in Microsoft Excel. In contrast to the negative control, the samples are not averaged and displayed as triplicates in the plot.
+The evaluation of the aggregation data can be done online with the AmyloFit Aggregation Fitter tool ( http://www.amylofit.ch.cam.ac.uk/ ). AmyloFit can fit aggregation data and extract kinetic and mechanistic parameters of aggregation based on the latest mathematic models of amyloid aggregation ( Meisl et al. , 2016 ). If aggregation proceeds according to any of these models under the applied experimental conditions, and when fitted accurately and globally, parameters like primary/secondary nucleation rate constants and elongation rate constants can be extracted ( Cohen et al. , 2013 ).
+As an example, we monitored the aggregation of α-synuclein at four different concentrations and evaluated the data with AmyloFit ( Figure 1 ).
+Data was exported to a tab-separated text file, with the first column being the time trace and the other ones being the fluorescence traces.
+As a first step, the raw data was plotted (see Figure 1A ).
+The data was normalized within the Amylofit software ( Figure 1B ). This is done by choosing a data point (or a range of data points) in the fluorescence plateau at the end of the assay, which (or the average of which) is set to unity and all other values scaled accordingly. In the case of Figure 1B , the fluorescence intensities after 80 h (for 25 μM to 100 μM α-synuclein) or 90 h (for 10 μM α-synuclein) were used for normalization.
+The next step was plotting the aggregation half-times vs. the initial monomer concentration ( m 0 ) to extract the scaling exponent, which gives insight into which aggregation mechanisms are dominant ( Figure 1C ). Note that non-linear behavior in the double-logarithmic plot may be observed, pointing to a change in the dominant growth mechanisms with increasing protein concentration ( Meisl et al. , 2016 ). A selection flow chart for the dominant aggregation model to choose can be found in the supplementary information of the publication by Meisl et al. , 2016 .
+The scaling exponent was -0.26, reflecting the low monomer concentration dependence of α-synuclein aggregation at neutral pH. This indicates that under these experimental conditions mechanisms are active that limit the monomer concentration dependence, such as saturating fibril elongation ( Meisl et al. , 2016 ; Buell et al. , 2014 ), fibril fragmentation ( Shvadchak et al. , 2015 ), and nucleation at the air-water interface ( Campioni et al. , 2014 ), which may become saturated with protein ( Pham et al. , 2016 ).
+The assay can also be used to identify molecules that interfere with α-synuclein aggregation.
+As an example, we monitored the aggregation of α-synuclein in the absence and presence of dityrosine (DiY)-crosslinked α-synuclein ( Wördehoff et al. , 2017 ) ( Figure 2A ).
+It has to be noted that a reduced ThT fluorescence intensity does not necessarily mean that aggregation is inhibited, as inhibitors can also interact with ThT, obstruct ThT binding sites on fibrils and/or change the morphology of aggregates so that ThT can no longer bind ( Jameson et al. , 2012 ).
+To complement our ThT data, we therefore collected the samples with and without inhibitor after the assay and performed size exclusion chromatography to confirm that α-synuclein stays monomeric in the presence of the inhibitor (DiY α-synuclein) ( Figure 2B ).
+
+## Recipes
+Modified 2YT medium (1 L)
+31 g YT medium (2x) premixed powder
+2 mM MgSO 4
+0.4% Glycerol (v/v)
+Dissolve and mix with around 950 ml Milli-Q H 2 O and autoclave
+After autoclaving, mix 900 ml of the medium with 100 ml 10x medium buffer
+Store at room temperature
+10x Medium buffer, pH 7.2 (1 l)
+Final concentration For 1 L
+360 mM K 2 HPO 4  82.16 g K 2 HPO 4 ·3H 2 O
+140 mM NaH 2 PO 4  19.32 g NaH 2 PO 4 ·H 2 O
+Dissolve in Milli-Q H 2 O and autoclave
+Store at room temperature
+IEC buffer A (50 mM Tris-HCl pH 8, for 500 ml)
+50 mM Tris(hydroxymethyl)aminomethane
+Dissolve 3.03 g Tris(hydroxymethyl)aminomethane in 400 ml Milli-Q H 2 O, titrate to pH 8 with HCl, adjust with Milli-Q H 2 O to 500 ml
+Store at room temperature
+IEC buffer B (50 mM Tris-HCl pH 8, 800 mM NaCl, for 500 ml)
+Final concentration For 500 ml
+50 mM Tris(hydroxymethyl)aminomethane 3.03 g
+800 mM NaCl    23.38 g NaCl
+Dissolve in 400 ml Milli-Q H 2 O, titrate to pH 8 with HCl, adjust with Milli-Q H 2 O to 500 ml
+Store at room temperature
+Saturated ammonium sulfate solution (250 ml)
+4.3 M Ammonium sulfate
+Dissolve 142.05 g (NH 4 ) 2 SO 4 in Milli-Q H 2 O and adjust the volume up to 250 ml with Milli-Q H 2 O and store at room temperature
+SEC buffer (1 L)
+Final concentration For 1 L
+20 mM K 2 HPO 4  4.56 g K 2 HPO 4 ·3H 2 O
+5 mM KH 2 PO 4   0.68 g KH 2 PO 4
+100 mM KCl 7.46 g KCl
+Dissolve in Milli-Q H 2 O and filter sterilize
+The buffer is stored at room temperature
+
+## Acknowledgments
+This method was adapted from Wördehoff et al. (2017). The plasmid pNatB (pACYCduet-naa20-naa25) was a gift from Dan Mulvihill (Addgene plasmid No. 53613). The project has received funding from the European Research Council under the European Union's Horizon 2020 research and innovation program, grant agreement No. 726368. The authors declare that no competing interests exist.
+
+## Citation
+Readers should cite both the Bio-protocol article and the original research article where this protocol was used.
+
+## Supplementary Data.
+
+## References
+
+## Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+## Supplementary Materials
+
+[FIGURE ] Four concentrations of α-synuclein (10 μM, 25 μM, 50 μM and 100 μM) aggregated in the presence of 10 μM Thioflavin T and 0.05% sodium azide in SEC buffer, measured in triplicates. The assay has been evaluated by the AmyloFit software ( http://www.amylofit.ch.cam.ac.uk ). A. Raw data, absolute ThT fluorescence readings of triplicate measurements of the four concentrations; B. Normalized aggregation data of the four concentrations; C. Double logarithmic half-time plot (log( m 0 ): initial monomer concentration vs log( τ ): aggregation half-time).
+
+[FIGURE ] 25 μM α-synuclein aggregated with (blue) and without (grey) 25 μM dityrosine (DiY)-crosslinked α-synuclein and 10 μM Thioflavin T and 0.05% sodium azide in SEC buffer, measured in triplicates. A. ThT fluorescence readings of triplicate measurements with and without inhibitor. B. Size exclusion chromatography of samples taken before and after the aggregation assay with and without inhibitor. Note that in presence of the inhibitor, the monomer peak after aggregation is equally high, whereas it decreased markedly without the inhibitor.

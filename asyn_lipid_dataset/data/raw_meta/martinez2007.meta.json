@@ -1,0 +1,288 @@
+{
+  "id": "17253773",
+  "source": "MED",
+  "pmid": "17253773",
+  "doi": "10.1021/bi061749a",
+  "title": "GM1 specifically interacts with alpha-synuclein and inhibits fibrillation.",
+  "authorString": "Martinez Z, Zhu M, Han S, Fink AL.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Martinez Z",
+        "lastName": "Martinez",
+        "firstName": "Zak",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry and Biochemistry, University of California, Santa Cruz, California 95064, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhu M",
+        "lastName": "Zhu",
+        "firstName": "Min",
+        "initials": "M"
+      },
+      {
+        "fullName": "Han S",
+        "lastName": "Han",
+        "firstName": "Shubo",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0216-5111"
+        }
+      },
+      {
+        "fullName": "Fink AL",
+        "lastName": "Fink",
+        "firstName": "Anthony L",
+        "initials": "AL"
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0002-0216-5111"
+      }
+    ]
+  },
+  "journalInfo": {
+    "issue": "7",
+    "volume": "46",
+    "journalIssueId": 1378056,
+    "dateOfPublication": "2007 Feb",
+    "monthOfPublication": 2,
+    "yearOfPublication": 2007,
+    "journal": {
+      "medlineAbbreviation": "Biochemistry",
+      "title": "Biochemistry",
+      "essn": "1520-4995",
+      "issn": "0006-2960",
+      "isoabbreviation": "Biochemistry",
+      "nlmid": "0370623"
+    },
+    "printPublicationDate": "2007-02-01"
+  },
+  "pubYear": "2007",
+  "pageInfo": "1868-1877",
+  "abstractText": "The aggregation of alpha-synuclein is believed to be a key step in the etiology of Parkinson's disease. Alpha-synuclein is found in the cytosol and is associated with membranes in the presynaptic region of neurons and has recently been reported to be associated with lipid rafts and caveolae. We examined the interactions between several brain sphingolipids and alpha-synuclein and found that alpha-synuclein specifically binds to ganglioside GM1-containing small unilamellar vesicles (SUVs). This results in the induction of substantial alpha-helical structure and inhibition or elimination of alpha-synuclein fibril formation, depending on the amount of GM1 present. SUVs containing total brain gangliosides, gangliosides GM2 or GM3, or asialo-GM1 had weak inhibitory effects on alpha-synuclein fibrillation and induced some alpha-helical structure, while all other sphingolipids studied showed negligible interaction with alpha-synuclein. alpha-Synuclein binding to GM1-containing SUVs was accompanied by formation of oligomers of alpha-synuclein. The familial mutant A53T alpha-synuclein interacted with GM1-containing SUVs in an analogous manner to wild type, whereas the A30P mutant showed minimal interaction. This is the first detailed report showing a direct association between GM1 and alpha-synuclein, which is attributed to specific interaction between helical alpha-synuclein and both the sialic acid and carbohydrate moieties of GM1. The recruitment of alpha-synuclein by GM1 to caveolae and lipid raft regions in membranes could explain alpha-synuclein's localization to presynaptic membranes and raises the possibility that perturbation of GM1/raft association could induce changes in alpha-synuclein that contribute to the pathogenesis of PD.",
+  "affiliation": "Department of Chemistry and Biochemistry, University of California, Santa Cruz, California 95064, USA.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "NINDS NIH HHS",
+        "acronym": "NS",
+        "grantId": "NS39985",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Humans"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Polymers"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M1) Ganglioside",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M2) Ganglioside",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M3) Ganglioside",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "1,2-Dipalmitoylphosphatidylcholine",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Sphingolipids",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Carbohydrate Sequence"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Protein Structure, Secondary"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Protein Binding"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Mutation"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Molecular Sequence Data"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "alpha-Synuclein",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "GE",
+              "qualifierName": "genetics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "asialo GM1 ganglioside",
+        "registryNumber": "71012-19-6"
+      },
+      {
+        "name": "Polymers",
+        "registryNumber": "0"
+      },
+      {
+        "name": "G(M1) Ganglioside",
+        "registryNumber": "37758-47-7"
+      },
+      {
+        "name": "G(M2) Ganglioside",
+        "registryNumber": "19600-01-2"
+      },
+      {
+        "name": "G(M3) Ganglioside",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Sphingolipids",
+        "registryNumber": "0"
+      },
+      {
+        "name": "1,2-Dipalmitoylphosphatidylcholine",
+        "registryNumber": "2644-64-6"
+      },
+      {
+        "name": "alpha-Synuclein",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1021/bi061749a"
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "N",
+  "inPMC": "N",
+  "citedByCount": 221,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "N",
+  "hasBook": "N",
+  "hasSuppl": "N",
+  "hasLabsLinks": "N",
+  "hasData": "N",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2007-03-27",
+  "dateOfCreation": "2007-01-27",
+  "dateOfRevision": "2007-12-03",
+  "electronicPublicationDate": "2007-01-25",
+  "firstPublicationDate": "2007-01-25",
+  "firstIndexDate": "2008-01-29",
+  "hasEvaluations": "N"
+}

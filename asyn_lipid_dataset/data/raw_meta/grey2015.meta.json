@@ -1,0 +1,386 @@
+{
+  "id": "25425650",
+  "source": "MED",
+  "pmid": "25425650",
+  "pmcid": "PMC4317028",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC4317028"
+    ]
+  },
+  "doi": "10.1074/jbc.m114.585703",
+  "title": "Acceleration of \u03b1-synuclein aggregation by exosomes.",
+  "authorString": "Grey M, Dunning CJ, Gaspar R, Grey C, Brundin P, Sparr E, Linse S.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Grey M",
+        "lastName": "Grey",
+        "firstName": "Marie",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "From the Departments of Physical Chemistry."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dunning CJ",
+        "lastName": "Dunning",
+        "firstName": "Christopher J",
+        "initials": "CJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2101-030X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "the Neuronal Survival Unit, Department of Experimental Medical Science, Wallenberg Neuroscience Center, Lund University, SE-22100 Lund, Sweden and the Center for Neurodegenerative Science, Biochemistry and Structural Biology, and."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gaspar R",
+        "lastName": "Gaspar",
+        "firstName": "Ricardo",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6454-7633"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "From the Departments of Physical Chemistry, Biochemistry and Structural Biology, and."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Grey C",
+        "lastName": "Grey",
+        "firstName": "Carl",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Biotechnology."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brundin P",
+        "lastName": "Brundin",
+        "firstName": "Patrik",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "the Neuronal Survival Unit, Department of Experimental Medical Science, Wallenberg Neuroscience Center, Lund University, SE-22100 Lund, Sweden and the Center for Neurodegenerative Science, The Van Andel Research Institute, Grand Rapids, Michigan 49503 patrik.brundin@vai.org."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sparr E",
+        "lastName": "Sparr",
+        "firstName": "Emma",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8343-9657"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "From the Departments of Physical Chemistry, emma.sparr@fkem1.lu.se."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Linse S",
+        "lastName": "Linse",
+        "firstName": "Sara",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9629-7109"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Biochemistry and Structural Biology, and sara.linse@biochemistry.lu.se."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-8343-9657"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0001-9629-7109"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-2101-030X"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-6454-7633"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics",
+      "supporting_data",
+      "recommended_reviews"
+    ]
+  },
+  "journalInfo": {
+    "issue": "5",
+    "volume": "290",
+    "journalIssueId": 2247888,
+    "dateOfPublication": "2015 Jan",
+    "monthOfPublication": 1,
+    "yearOfPublication": 2015,
+    "journal": {
+      "medlineAbbreviation": "J Biol Chem",
+      "title": "The Journal of biological chemistry",
+      "essn": "1083-351X",
+      "issn": "0021-9258",
+      "nlmid": "2985121R",
+      "isoabbreviation": "J Biol Chem"
+    },
+    "printPublicationDate": "2015-01-01"
+  },
+  "pubYear": "2015",
+  "pageInfo": "2969-2982",
+  "abstractText": "Exosomes are small vesicles released from cells into extracellular space. We have isolated exosomes from neuroblastoma cells and investigated their influence on the aggregation of \u03b1-synuclein, a protein associated with Parkinson disease pathology. Using cryo-transmission electron microscopy of exosomes, we found spherical unilamellar vesicles with a significant protein content, and Western blot analysis revealed that they contain, as expected, the proteins Flotillin-1 and Alix. Using thioflavin T fluorescence to monitor aggregation kinetics, we found that exosomes catalyze the process in a similar manner as a low concentration of preformed \u03b1-synuclein fibrils. The exosomes reduce the lag time indicating that they provide catalytic environments for nucleation. The catalytic effects of exosomes derived from naive cells and cells that overexpress \u03b1-synuclein do not differ. Vesicles prepared from extracted exosome lipids accelerate aggregation, suggesting that the lipids in exosomes are sufficient for the catalytic effect to arise. Using mass spectrometry, we found several phospholipid classes in the exosomes, including phosphatidylcholine, phosphatidylserine, phosphatidylethanolamine, phosphatidylinositol, and the gangliosides GM2 and GM3. Within each class, several species with different acyl chains were identified. We then prepared vesicles from corresponding pure lipids or defined mixtures, most of which were found to retard \u03b1-synuclein aggregation. As a striking exception, vesicles containing ganglioside lipids GM1 or GM3 accelerate the process. Understanding how \u03b1-synuclein interacts with biological membranes to promote neurological disease might lead to the identification of novel therapeutic targets.",
+  "affiliation": "From the Departments of Physical Chemistry.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Humans"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Parkinson Disease",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M1) Ganglioside",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M2) Ganglioside"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "G(M3) Ganglioside",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Phospholipids",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "alpha-Synuclein",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Unilamellar Liposomes",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Exosomes",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Fluorescence",
+      "Amyloid",
+      "Lipid",
+      "Membrane",
+      "mass spectrometry (MS)",
+      "Fibril",
+      "Parkinson disease",
+      "Exosome",
+      "Protein aggregation",
+      "{Alpha}-synuclein"
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Phospholipids",
+        "registryNumber": "0"
+      },
+      {
+        "name": "G(M1) Ganglioside",
+        "registryNumber": "37758-47-7"
+      },
+      {
+        "name": "G(M2) Ganglioside",
+        "registryNumber": "19600-01-2"
+      },
+      {
+        "name": "G(M3) Ganglioside",
+        "registryNumber": "0"
+      },
+      {
+        "name": "alpha-Synuclein",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Unilamellar Liposomes",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1074/jbc.M114.585703"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC4317028"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC4317028?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 324,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2015-04-15",
+  "dateOfCreation": "2014-11-27",
+  "dateOfRevision": "2021-02-05",
+  "electronicPublicationDate": "2014-11-25",
+  "firstPublicationDate": "2014-11-25",
+  "firstIndexDate": "2014-11-27",
+  "fullTextReceivedDate": "2020-07-08",
+  "hasEvaluations": "N"
+}

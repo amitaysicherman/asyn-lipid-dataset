@@ -1,0 +1,204 @@
+{
+  "id": "30069495",
+  "source": "MED",
+  "pmid": "30069495",
+  "pmcid": "PMC6066150",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC6066150"
+    ]
+  },
+  "doi": "10.21769/bioprotoc.2941",
+  "title": "\u03b1-Synuclein Aggregation Monitored by Thioflavin T Fluorescence Assay.",
+  "authorString": "W\u00f6rdehoff MM, Hoyer W.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "W\u00f6rdehoff MM",
+        "lastName": "W\u00f6rdehoff",
+        "firstName": "Michael M",
+        "initials": "MM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1591-0168"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institut f\u00fcr Physikalische Biologie, Heinrich-Heine-Universit\u00e4t D\u00fcsseldorf, 40204 D\u00fcsseldorf, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hoyer W",
+        "lastName": "Hoyer",
+        "firstName": "Wolfgang",
+        "initials": "W",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4301-5416"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institut f\u00fcr Physikalische Biologie, Heinrich-Heine-Universit\u00e4t D\u00fcsseldorf, 40204 D\u00fcsseldorf, Germany."
+            },
+            {
+              "affiliation": "Institute of Complex Systems (ICS-6), Structural Biochemistry, Research Centre J\u00fclich, 52425 J\u00fclich, Germany."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0002-1591-0168"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-4301-5416"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "14",
+    "volume": "8",
+    "journalIssueId": 2711059,
+    "dateOfPublication": "2018 Jul",
+    "monthOfPublication": 7,
+    "yearOfPublication": 2018,
+    "journal": {
+      "medlineAbbreviation": "Bio Protoc",
+      "title": "Bio-protocol",
+      "essn": "2331-8325",
+      "issn": "2331-8325",
+      "isoabbreviation": "Bio Protoc",
+      "nlmid": "101635102"
+    },
+    "printPublicationDate": "2018-07-01"
+  },
+  "pubYear": "2018",
+  "pageInfo": "e2941",
+  "abstractText": "Studying the aggregation of amyloid proteins like \u03b1-synuclein <i>in vitro</i> is a convenient and popular tool to gain kinetic insights into aggregation as well as to study factors (<i>e.g.</i>, aggregation inhibitors) that influence it. These aggregation assays typically make use of the fluorescence dye Thioflavin T as a sensitive fluorescence reporter of amyloid fibril formation and are conducted in a plate-reader-based format, permitting the simultaneous screening of multiple samples and conditions. However, aggregation assays are generally prone to poor reproducibility due to the stochastic nature of fibril nucleation and the multiplicity of modulating factors. Here we present a simple and reproducible protocol to study the aggregation of \u03b1-synuclein in a plate-reader based assay.",
+  "affiliation": "Institut f\u00fcr Physikalische Biologie, Heinrich-Heine-Universit\u00e4t D\u00fcsseldorf, 40204 D\u00fcsseldorf, Germany.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print",
+  "pubTypeList": {
+    "pubType": [
+      "methods-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "European Research Council",
+        "acronym": "ERC_",
+        "grantId": "726368",
+        "orderIn": 0
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Amyloid",
+      "Aggregation",
+      "\u03b1-synuclein",
+      "Parkinson\u2019s Disease",
+      "Thioflavin T Assay"
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Unpaywall",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066150"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Unpaywall",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066150"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Unpaywall",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066150"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Unpaywall",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066150"
+      },
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.21769/BioProtoc.2941"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC6066150"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC6066150?pdf=render"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.21769/bioprotoc.2941"
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 47,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "authMan": "Y",
+  "epmcAuthMan": "Y",
+  "nihAuthMan": "N",
+  "manuscriptId": "EMS78772",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2018-08-03",
+  "dateOfRevision": "2025-05-30",
+  "firstPublicationDate": "2018-07-01",
+  "firstIndexDate": "2018-08-03",
+  "fullTextReceivedDate": "2025-02-04",
+  "hasEvaluations": "N"
+}

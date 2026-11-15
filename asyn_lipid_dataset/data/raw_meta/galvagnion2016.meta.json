@@ -1,0 +1,422 @@
+{
+  "id": "27298346",
+  "source": "MED",
+  "pmid": "27298346",
+  "pmcid": "PMC4932957",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC4932957"
+    ]
+  },
+  "doi": "10.1073/pnas.1601899113",
+  "title": "Chemical properties of lipids strongly affect the kinetics of the membrane-induced aggregation of \u03b1-synuclein.",
+  "authorString": "Galvagnion C, Brown JW, Ouberai MM, Flagmeier P, Vendruscolo M, Buell AK, Sparr E, Dobson CM.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Galvagnion C",
+        "lastName": "Galvagnion",
+        "firstName": "C\u00e9line",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9753-3310"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brown JW",
+        "lastName": "Brown",
+        "firstName": "James W P",
+        "initials": "JW",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2731-8882"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ouberai MM",
+        "lastName": "Ouberai",
+        "firstName": "Myriam M",
+        "initials": "MM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nanoscience Centre, Department of Engineering, University of Cambridge, Cambridge CB3 0FF, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Flagmeier P",
+        "lastName": "Flagmeier",
+        "firstName": "Patrick",
+        "initials": "P",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1204-5340"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vendruscolo M",
+        "lastName": "Vendruscolo",
+        "firstName": "Michele",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3616-1610"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Buell AK",
+        "lastName": "Buell",
+        "firstName": "Alexander K",
+        "initials": "AK",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1161-3622"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sparr E",
+        "lastName": "Sparr",
+        "firstName": "Emma",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8343-9657"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Physical Chemistry, Chemistry Department, Lund University, 22100 Lund, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dobson CM",
+        "lastName": "Dobson",
+        "firstName": "Christopher M",
+        "initials": "CM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom; cmd44@cam.ac.uk."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-8343-9657"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0001-9753-3310"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-1204-5340"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-2731-8882"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-3616-1610"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-1161-3622"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "26",
+    "volume": "113",
+    "journalIssueId": 2423655,
+    "dateOfPublication": "2016 Jun",
+    "monthOfPublication": 6,
+    "yearOfPublication": 2016,
+    "journal": {
+      "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+      "title": "Proceedings of the National Academy of Sciences of the United States of America",
+      "essn": "1091-6490",
+      "issn": "0027-8424",
+      "nlmid": "7505876",
+      "isoabbreviation": "Proc Natl Acad Sci U S A"
+    },
+    "printPublicationDate": "2016-06-01"
+  },
+  "pubYear": "2016",
+  "pageInfo": "7065-7070",
+  "abstractText": "Intracellular \u03b1-synuclein deposits, known as Lewy bodies, have been linked to a range of neurodegenerative disorders, including Parkinson's disease. \u03b1-Synuclein binds to synthetic and biological lipids, and this interaction has been shown to play a crucial role for both \u03b1-synuclein's native function, including synaptic plasticity, and the initiation of its aggregation. Here, we describe the interplay between the lipid properties and the lipid binding and aggregation propensity of \u03b1-synuclein. In particular, we have observed that the binding of \u03b1-synuclein to model membranes is much stronger when the latter is in the fluid rather than the gel phase, and that this binding induces a segregation of the lipids into protein-poor and protein-rich populations. In addition, \u03b1-synuclein was found to aggregate at detectable rates only when interacting with membranes composed of the most soluble lipids investigated here. Overall, our results show that the chemical properties of lipids determine whether or not the lipids can trigger the aggregation of \u03b1-synuclein, thus affecting the balance between functional and aberrant behavior of the protein.",
+  "affiliation": "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom;",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "Vetenskapsr\u00e5det",
+        "grantId": "2012-3932",
+        "orderIn": 0
+      },
+      {
+        "agency": "Biotechnology and Biological Sciences Research Council",
+        "acronym": "BB_",
+        "grantId": "BB/H003843/1",
+        "orderIn": 0
+      },
+      {
+        "agency": "Leverhulme Trust",
+        "grantId": "ECF-2013-299",
+        "orderIn": 0
+      },
+      {
+        "agency": "Wellcome Trust",
+        "acronym": "WT_",
+        "orderIn": 0
+      },
+      {
+        "agency": "Engineering and Physical Sciences Research Council",
+        "grantId": "EP/K039520/1",
+        "orderIn": 0
+      },
+      {
+        "agency": "Wellcome Trust",
+        "acronym": "WT",
+        "grantId": "094425/Z/10/Z",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Cell Membrane",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Humans"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Parkinson Disease",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Lipid Bilayers",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Kinetics"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "alpha-Synuclein",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Protein Aggregation, Pathological",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "\u03b1-synuclein",
+      "Parkinson\u2019s Disease",
+      "Phase Diagram",
+      "Lipid-induced Aggregation"
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Lipid Bilayers",
+        "registryNumber": "0"
+      },
+      {
+        "name": "alpha-Synuclein",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1073/pnas.1601899113"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC4932957"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC4932957?pdf=render"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1073/pnas.1601899113"
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 284,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2017-08-14",
+  "dateOfCreation": "2016-06-15",
+  "dateOfRevision": "2025-05-30",
+  "electronicPublicationDate": "2016-06-13",
+  "firstPublicationDate": "2016-06-13",
+  "firstIndexDate": "2016-06-15",
+  "fullTextReceivedDate": "2020-07-12",
+  "hasEvaluations": "N"
+}

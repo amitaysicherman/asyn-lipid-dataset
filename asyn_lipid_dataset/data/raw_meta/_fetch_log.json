@@ -1,0 +1,127 @@
+[
+  {
+    "key": "martinez2007",
+    "role": "primary_aggregation",
+    "requested": {
+      "key": "martinez2007",
+      "pmcid": null,
+      "doi": "10.1021/bi061749a",
+      "title": "GM1 Specifically Interacts with alpha-Synuclein and Inhibits Fibrillation",
+      "role": "primary_aggregation"
+    },
+    "pmid": "17253773",
+    "pmcid": null,
+    "isOpenAccess": "N",
+    "inPMC": "N",
+    "inEPMC": "N",
+    "hasPDF": "N",
+    "journal": "Biochemistry",
+    "year": "2007",
+    "html": "no_pmcid"
+  },
+  {
+    "key": "grey2015",
+    "role": "primary_aggregation",
+    "requested": {
+      "key": "grey2015",
+      "pmcid": "PMC4317028",
+      "doi": "10.1074/jbc.M114.585703",
+      "title": "Acceleration of alpha-Synuclein Aggregation by Exosomes",
+      "role": "primary_aggregation"
+    },
+    "pmid": "25425650",
+    "pmcid": "PMC4317028",
+    "isOpenAccess": "Y",
+    "inPMC": "Y",
+    "inEPMC": "Y",
+    "hasPDF": "Y",
+    "journal": "The Journal of biological chemistry",
+    "year": "2015",
+    "html_bytes": 21407,
+    "supp_bytes": 1155906
+  },
+  {
+    "key": "galvagnion2016",
+    "role": "primary_aggregation",
+    "requested": {
+      "key": "galvagnion2016",
+      "pmcid": "PMC4932957",
+      "doi": "10.1073/pnas.1601899113",
+      "title": "Chemical properties of lipids strongly affect the kinetics of the membrane-induced aggregation of alpha-synuclein",
+      "role": "primary_aggregation"
+    },
+    "pmid": "27298346",
+    "pmcid": "PMC4932957",
+    "isOpenAccess": "N",
+    "inPMC": "Y",
+    "inEPMC": "Y",
+    "hasPDF": "Y",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "year": "2016",
+    "html_bytes": 197648,
+    "supp_bytes": 296
+  },
+  {
+    "key": "galvagnion2015",
+    "role": "primary_aggregation",
+    "requested": {
+      "key": "galvagnion2015",
+      "pmcid": "PMC5019199",
+      "doi": "10.1038/nchembio.1750",
+      "title": "Lipid vesicles trigger alpha-synuclein aggregation by stimulating primary nucleation",
+      "role": "primary_aggregation"
+    },
+    "pmid": "25643172",
+    "pmcid": "PMC5019199",
+    "isOpenAccess": "N",
+    "inPMC": "Y",
+    "inEPMC": "Y",
+    "hasPDF": "Y",
+    "journal": "Nature chemical biology",
+    "year": "2015",
+    "html_bytes": 235425,
+    "supp_bytes": 296
+  },
+  {
+    "key": "gaspar2018",
+    "role": "primary_aggregation",
+    "requested": {
+      "key": "gaspar2018",
+      "pmcid": "PMC6121081",
+      "doi": "10.1039/c7sc04367c",
+      "title": "Ganglioside lipids accelerate alpha-synuclein amyloid formation",
+      "role": "primary_aggregation"
+    },
+    "pmid": "30077783",
+    "pmcid": "PMC6121081",
+    "isOpenAccess": "Y",
+    "inPMC": "Y",
+    "inEPMC": "Y",
+    "hasPDF": "N",
+    "journal": "Biochimica et biophysica acta. Proteins and proteomics",
+    "year": "2018",
+    "html_bytes": 21408,
+    "supp_bytes": 2738621
+  },
+  {
+    "key": "tht_assay2018",
+    "role": "assay_ref",
+    "requested": {
+      "key": "tht_assay2018",
+      "pmcid": "PMC6066150",
+      "doi": null,
+      "title": "alpha-Synuclein Aggregation Monitored by Thioflavin T Fluorescence Assay",
+      "role": "assay_ref"
+    },
+    "pmid": "30069495",
+    "pmcid": "PMC6066150",
+    "isOpenAccess": "N",
+    "inPMC": "Y",
+    "inEPMC": "Y",
+    "hasPDF": "Y",
+    "journal": "Bio-protocol",
+    "year": "2018",
+    "html_bytes": 144917,
+    "supp_bytes": 296
+  }
+]

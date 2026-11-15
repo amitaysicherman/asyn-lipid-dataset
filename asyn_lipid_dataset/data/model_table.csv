@@ -1,0 +1,36 @@
+condition_id,paper_id,label,driver_lipid,driver_class,driver_charge,driver_mean_chain_C,driver_total_db,driver_is_ganglioside,driver_is_natural_mix,anionic_mol_fraction,n_components,formulation,pH,temp_C,agitation,protein_conc_uM,lipid_to_protein_ratio,assay_paradigm,effect_direction,effect_score,effect_class
+martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,GM1,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
+martinez2007_c02,martinez2007,GM2 SUVs + WT,GM2,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
+martinez2007_c03,martinez2007,GM3 SUVs + WT,GM3,ganglioside,-1.0,18.0,0.0,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
+martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,AsialoGM1,glycosphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
+martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,BrainGangliosides,ganglioside,-1.0,,,1,1,,1,SUV,,,unknown,,,inhibition,inhibition,-1.0,reduce
+martinez2007_c06,martinez2007,other sphingolipids + WT,SM,sphingolipid,0.0,18.0,0.0,0,1,,1,SUV,,,unknown,,,inhibition,no_detectable_effect,0.0,neutral
+grey2015_c_exo_naive,grey2015,"exosomes (naive N2a) 0.25 mg/ml, shaking",natural_exosome,unknown,,,,0,0,,1,exosome,5.5,37.0,shaking,30.0,,lipid_induced,strong_acceleration,2.0,accelerate
+grey2015_c_dopc,grey2015,DOPC SUV 0.2 mM,DOPC,PC,0.0,18.0,2.0,0,0,,1,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
+grey2015_c_dopc_dops30,grey2015,DOPC + 30% DOPS SUV 0.2 mM,DOPS,PS,-1.0,18.0,2.0,0,0,0.3,2,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
+grey2015_c_dopc_cl6,grey2015,DOPC + 6% cardiolipin SUV 0.2 mM,CL,cardiolipin,-2.0,18.0,4.0,0,0,0.06,2,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
+grey2015_c_dopc_sph15,grey2015,DOPC + 15% sphingosine SUV 0.2 mM,Sphingosine,sphingolipid,1.0,18.0,1.0,0,0,,2,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,retardation,-0.5,neutral
+grey2015_c_gm1_02,grey2015,"DOPC + 10% GM1 SUV 0.2 mM, shaking",GM1,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,shaking,30.0,6.667,lipid_induced,acceleration,1.0,accelerate
+grey2015_c_gm1_05,grey2015,"DOPC + 10% GM1 SUV 0.5 mM, shaking",GM1,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,shaking,30.0,16.667,lipid_induced,strong_acceleration,2.0,accelerate
+grey2015_c_gm1_01_quiet,grey2015,"DOPC + 10% GM1 SUV 0.1 mM, quiescent nonbinding",GM1,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,quiescent,30.0,3.333,lipid_induced,acceleration,1.0,accelerate
+grey2015_c_gm3_02_quiet,grey2015,"DOPC + 10% GM3 SUV 0.2 mM, quiescent",GM3,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,quiescent,30.0,6.667,lipid_induced,acceleration,1.0,accelerate
+grey2015_c_exolipid,grey2015,extracted exosome-lipid SUV,natural_natural_extract,unknown,,,,0,0,,1,SUV,5.5,37.0,shaking,30.0,,lipid_induced,acceleration,1.0,accelerate
+galvagnion2016_c_dmps100_p100,galvagnion2016,DMPS 100 uM + 100 uM aSyn,DMPS,PS,-1.0,14.0,0.0,0,0,,1,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,acceleration,1.0,accelerate
+galvagnion2016_c_dlps100_p100,galvagnion2016,DLPS 100 uM + 100 uM aSyn,DLPS,PS,-1.0,12.0,0.0,0,0,,1,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,strong_acceleration,2.0,accelerate
+galvagnion2016_c_dops100_p100,galvagnion2016,DOPS 100 uM + 100 uM aSyn,DOPS,PS,-1.0,18.0,2.0,0,0,,1,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_pops100_p100,galvagnion2016,POPS 100 uM + 100 uM aSyn,POPS,PS,-1.0,17.0,1.0,0,0,,1,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_dpps100_p100,galvagnion2016,DPPS 100 uM + 100 uM aSyn (gel phase),DPPS,PS,-1.0,16.0,0.0,0,0,,1,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_dpps_50C,galvagnion2016,DPPS 100 uM + aSyn at 50C (fluid),DPPS,PS,-1.0,16.0,0.0,0,0,,1,SUV,6.5,50.0,quiescent,100.0,1.0,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_synmimic,galvagnion2016,DOPE:DOPS:DOPC 50:30:20 (synaptic mimic),DOPS,PS,-1.0,18.0,2.0,0,0,0.3,3,SUV,6.5,30.0,quiescent,100.0,,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_synmimic_chol,galvagnion2016,DOPE:DOPS:DOPC 50:30:20 + cholesterol 10-40%,DOPS,PS,-1.0,18.0,2.0,0,0,,4,SUV,6.5,30.0,quiescent,100.0,,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2016_c_dlps_dpps,galvagnion2016,DLPS:DPPS 50:50 100 uM + 100 uM aSyn,DLPS,PS,-1.0,12.0,0.0,0,0,,2,SUV,6.5,30.0,quiescent,100.0,1.0,lipid_induced,acceleration,1.0,accelerate
+galvagnion2016_c_dmpc_dmps,galvagnion2016,"DMPC:DMPS mixtures (ratio varied), SI Fig S2",DMPS,PS,-1.0,14.0,0.0,0,0,,2,SUV,6.5,30.0,quiescent,,,lipid_induced,no_detectable_effect,0.0,neutral
+galvagnion2015_c_excess,galvagnion2015,DMPS excess (DMPS:aSyn > 40),DMPS,PS,-1.0,14.0,0.0,0,0,,1,SUV,6.5,30.0,quiescent,50.0,,lipid_induced,inhibition,-1.0,reduce
+galvagnion2015_c_low,galvagnion2015,DMPS low ratio (DMPS:aSyn 2-15),DMPS,PS,-1.0,14.0,0.0,0,0,,1,SUV,6.5,30.0,quiescent,50.0,,lipid_induced,strong_acceleration,2.0,accelerate
+gaspar2018_c_gm1,gaspar2018,DOPC:GM1 9:1 SUV 0.1-0.5 mM,GM1,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,strong_acceleration,2.0,accelerate
+gaspar2018_c_gm3,gaspar2018,DOPC:GM3 9:1 SUV,GM3,ganglioside,-1.0,18.0,0.0,1,1,0.1,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,strong_acceleration,2.0,accelerate
+gaspar2018_c_dops,gaspar2018,DOPC:DOPS 9:1 SUV (reference anionic),DOPS,PS,-1.0,18.0,2.0,0,0,0.1,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,acceleration,1.0,accelerate
+gaspar2018_c_dopc,gaspar2018,pure DOPC SUV,DOPC,PC,0.0,18.0,2.0,0,0,,1,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,no_detectable_effect,0.0,neutral
+gaspar2018_c_asialogm1,gaspar2018,DOPC:Asialo-GM1 9:1 SUV,AsialoGM1,glycosphingolipid,0.0,18.0,0.0,0,1,,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,weak_acceleration,0.5,accelerate
+gaspar2018_c_cerpeg,gaspar2018,DOPC:Cer-PEG750 9:1 SUV,Cer-PEG750,PEG-lipid,0.0,16.0,0.0,0,0,,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,weak_acceleration,0.5,accelerate
+gaspar2018_c_pepeg,gaspar2018,DOPC:PE-PEG750 9:1 SUV,PE-PEG750,PEG-lipid,-1.0,18.0,0.0,0,0,0.1,2,SUV,5.5,37.0,quiescent,20.0,,lipid_induced,acceleration,1.0,accelerate

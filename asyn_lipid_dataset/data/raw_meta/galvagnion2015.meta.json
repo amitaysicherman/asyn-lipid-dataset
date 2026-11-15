@@ -1,0 +1,401 @@
+{
+  "id": "25643172",
+  "source": "MED",
+  "pmid": "25643172",
+  "pmcid": "PMC5019199",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC5019199"
+    ]
+  },
+  "doi": "10.1038/nchembio.1750",
+  "title": "Lipid vesicles trigger \u03b1-synuclein aggregation by stimulating primary nucleation.",
+  "authorString": "Galvagnion C, Buell AK, Meisl G, Michaels TC, Vendruscolo M, Knowles TP, Dobson CM.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Galvagnion C",
+        "lastName": "Galvagnion",
+        "firstName": "C\u00e9line",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9753-3310"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Buell AK",
+        "lastName": "Buell",
+        "firstName": "Alexander K",
+        "initials": "AK",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1161-3622"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Meisl G",
+        "lastName": "Meisl",
+        "firstName": "Georg",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6562-7715"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Michaels TC",
+        "lastName": "Michaels",
+        "firstName": "Thomas C T",
+        "initials": "TC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6931-5041"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vendruscolo M",
+        "lastName": "Vendruscolo",
+        "firstName": "Michele",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3616-1610"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Knowles TP",
+        "lastName": "Knowles",
+        "firstName": "Tuomas P J",
+        "initials": "TP",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7879-0140"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dobson CM",
+        "lastName": "Dobson",
+        "firstName": "Christopher M",
+        "initials": "CM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-6931-5041"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0001-9753-3310"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-3616-1610"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-6562-7715"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-7879-0140"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-1161-3622"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "supporting_data",
+      "related_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "3",
+    "volume": "11",
+    "journalIssueId": 2254957,
+    "dateOfPublication": "2015 Mar",
+    "monthOfPublication": 3,
+    "yearOfPublication": 2015,
+    "journal": {
+      "medlineAbbreviation": "Nat Chem Biol",
+      "title": "Nature chemical biology",
+      "essn": "1552-4469",
+      "issn": "1552-4450",
+      "isoabbreviation": "Nat Chem Biol",
+      "nlmid": "101231976"
+    },
+    "printPublicationDate": "2015-03-01"
+  },
+  "pubYear": "2015",
+  "pageInfo": "229-234",
+  "abstractText": "\u03b1-Synuclein (\u03b1-syn) is a 140-residue intrinsically disordered protein that is involved in neuronal and synaptic vesicle plasticity, but its aggregation to form amyloid fibrils is the hallmark of Parkinson's disease (PD). The interaction between \u03b1-syn and lipid surfaces is believed to be a key feature for mediation of its normal function, but under other circumstances it is able to modulate amyloid fibril formation. Using a combination of experimental and theoretical approaches, we identify the mechanism through which facile aggregation of \u03b1-syn is induced under conditions where it binds a lipid bilayer, and we show that the rate of primary nucleation can be enhanced by three orders of magnitude or more under such conditions. These results reveal the key role that membrane interactions can have in triggering conversion of \u03b1-syn from its soluble state to the aggregated state that is associated with neurodegeneration and to its associated disease states.",
+  "affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "Biotechnology and Biological Sciences Research Council",
+        "acronym": "BB_",
+        "grantId": "BB/H003843/1",
+        "orderIn": 0
+      },
+      {
+        "agency": "Wellcome Trust",
+        "acronym": "WT_",
+        "grantId": "089703",
+        "orderIn": 0
+      },
+      {
+        "agency": "Wellcome Trust",
+        "acronym": "WT_",
+        "grantId": "094425/Z/10/Z",
+        "orderIn": 0
+      },
+      {
+        "agency": "Biotechnology and Biological Sciences Research Council",
+        "acronym": "BB_",
+        "grantId": "BB/J002119/1",
+        "orderIn": 0
+      },
+      {
+        "agency": "European Research Council",
+        "acronym": "ERC_",
+        "grantId": "337969",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Parkinson Disease"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Amyloid",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Membrane Lipids",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Lipid Bilayers",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Fluorescence Polarization"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Kinetics"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "alpha-Synuclein",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "CH",
+              "qualifierName": "chemistry"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Amyloid",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Membrane Lipids",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Lipid Bilayers",
+        "registryNumber": "0"
+      },
+      {
+        "name": "alpha-Synuclein",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/nchembio.1750"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC5019199"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC5019199?pdf=render"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/nchembio.1750"
+      }
+    ]
+  },
+  "commentCorrectionList": {
+    "commentCorrection": [
+      {
+        "source": "MED",
+        "id": "25689332",
+        "reference": "Nat Chem Biol. 2015 Mar;11(3):176-7. doi: 10.1038/nchembio.1759.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 611,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "Y",
+  "dbCrossReferenceList": {
+    "dbName": [
+      "INTACT"
+    ]
+  },
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "authMan": "Y",
+  "epmcAuthMan": "Y",
+  "nihAuthMan": "N",
+  "manuscriptId": "EMS69490",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2015-04-20",
+  "dateOfCreation": "2015-02-03",
+  "dateOfRevision": "2025-05-29",
+  "electronicPublicationDate": "2015-02-02",
+  "firstPublicationDate": "2015-02-02",
+  "firstIndexDate": "2015-02-03",
+  "fullTextReceivedDate": "2025-12-03",
+  "hasEvaluations": "N"
+}
