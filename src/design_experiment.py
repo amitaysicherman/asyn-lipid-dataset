@@ -22,6 +22,12 @@ OUT = os.path.join(ROOT, "experiments")
 os.makedirs(OUT, exist_ok=True)
 
 CANDIDATES = ["Cholesterol", "SM", "DMPC", "DPPC", "DSPC", "DOPC", "POPC", "GM1"]
+# Top rule-predicted anionic REDUCERS added to test the prior's key prediction
+# (anionic lipids reduce; the PC/cholesterol set does not), at Yuval's regime.
+EXTRA_ANIONIC = ["GM3", "DOPS", "POPG", "Cardiolipin"]
+TEST_LIPIDS = CANDIDATES + EXTRA_ANIONIC
+# gangliosides go in isopropanol (like GM1); everything else in ethanol
+GANGLIOSIDES = {"GM1", "GM3"}
 RATIOS = [10, 50]
 REPLICATES = 3
 # solvent % by ratio, from the protocol tables
@@ -29,8 +35,12 @@ ETHANOL_PCT = {10: 2.0, 50: 10.0}
 GM1_IPA_PCT = {10: 1.6, 50: 8.0}
 
 
+def is_gang(lipid):
+    return lipid in GANGLIOSIDES
+
+
 def solvent_for(lipid, ratio):
-    if lipid == "GM1":
+    if is_gang(lipid):
         return "isopropanol", GM1_IPA_PCT[ratio]
     return "ethanol", ETHANOL_PCT[ratio]
 
@@ -55,7 +65,7 @@ def build(protein_uM):
                                solvent_pct=GM1_IPA_PCT[r], protein_uM=protein_uM,
                                note=f"solvent control for GM1 at {r}:1 ratio"))
     # ---- lipid conditions ----
-    for lipid in CANDIDATES:
+    for lipid in TEST_LIPIDS:
         for r in RATIOS:
             solv, pct = solvent_for(lipid, r)
             lipid_mM = round(r * protein_uM / 1000.0, 3)  # ratio * [prot]; uM->mM
@@ -98,7 +108,7 @@ def main():
         if c["role"] != "lipid":
             matched = ""
         else:
-            matched = (f"CTRL_iPrOH_{c['solvent_pct']:g}pct" if c["lipid"] == "GM1"
+            matched = (f"CTRL_iPrOH_{c['solvent_pct']:g}pct" if is_gang(c["lipid"])
                        else f"CTRL_EtOH_{c['solvent_pct']:g}pct")
         trows.append(dict(cond_id=c["cond_id"], lipid=c["lipid"], ratio=c["ratio"],
                           protein_uM=c["protein_uM"], solvent=c["solvent"],
@@ -123,12 +133,12 @@ def main():
             f.write(f"{row}  " + "".join(f"{grid[row][c]:>16}" for c in range(1, 13)) + "\n")
 
     print(f"protein {protein_uM} uM | conditions={len(conditions)} "
-          f"(8 candidates x 2 ratios + {len(conditions)-16} controls) | wells={n_wells}/96")
+          f"({len(TEST_LIPIDS)} lipids x 2 ratios + {len(conditions)-2*len(TEST_LIPIDS)} controls) | wells={n_wells}/96")
     print("wrote experiments/plate_layout.csv, results_template.csv, plate_grid.txt")
     print("\nController pairings (lipid -> solvent-matched control):")
     for c in conditions:
         if c["role"] == "lipid":
-            m = (f"CTRL_iPrOH_{c['solvent_pct']:g}pct" if c["lipid"] == "GM1"
+            m = (f"CTRL_iPrOH_{c['solvent_pct']:g}pct" if is_gang(c["lipid"])
                  else f"CTRL_EtOH_{c['solvent_pct']:g}pct")
             print(f"  {c['cond_id']:16} {c['lipid_mM']} mM, {c['solvent_pct']:g}% {c['solvent']:11} -> {m}")
 

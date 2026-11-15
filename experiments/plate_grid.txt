@@ -1,12 +1,12 @@
 96-well plate layout — A53T a-syn 100 uM, pH 7.4 (Greiner 655090)
-22 conditions x 3 reps = 66 wells
+30 conditions x 3 reps = 90 wells
 
                    1               2               3               4               5               6               7               8               9              10              11              12
-A         ·buffer.1    ·EtOH_2pct.3   ·iPrOH_8pct.2      SM_10to1.1    DMPC_10to1.3    DPPC_50to1.2    DOPC_10to1.1    POPC_10to1.3     GM1_50to1.2                                                
-B         ·buffer.2   ·EtOH_10pct.1   ·iPrOH_8pct.3      SM_10to1.2    DMPC_50to1.1    DPPC_50to1.3    DOPC_10to1.2    POPC_50to1.1     GM1_50to1.3                                                
-C         ·buffer.3   ·EtOH_10pct.2Cholesterol_10to1.1      SM_10to1.3    DMPC_50to1.2    DSPC_10to1.1    DOPC_10to1.3    POPC_50to1.2                                                                
-D   ·protein_only.1   ·EtOH_10pct.3Cholesterol_10to1.2      SM_50to1.1    DMPC_50to1.3    DSPC_10to1.2    DOPC_50to1.1    POPC_50to1.3                                                                
-E   ·protein_only.2 ·iPrOH_1.6pct.1Cholesterol_10to1.3      SM_50to1.2    DPPC_10to1.1    DSPC_10to1.3    DOPC_50to1.2     GM1_10to1.1                                                                
-F   ·protein_only.3 ·iPrOH_1.6pct.2Cholesterol_50to1.1      SM_50to1.3    DPPC_10to1.2    DSPC_50to1.1    DOPC_50to1.3     GM1_10to1.2                                                                
-G      ·EtOH_2pct.1 ·iPrOH_1.6pct.3Cholesterol_50to1.2    DMPC_10to1.1    DPPC_10to1.3    DSPC_50to1.2    POPC_10to1.1     GM1_10to1.3                                                                
-H      ·EtOH_2pct.2   ·iPrOH_8pct.1Cholesterol_50to1.3    DMPC_10to1.2    DPPC_50to1.1    DSPC_50to1.3    POPC_10to1.2     GM1_50to1.1                                                                
+A         ·buffer.1    ·EtOH_2pct.3   ·iPrOH_8pct.2      SM_10to1.1    DMPC_10to1.3    DPPC_50to1.2    DOPC_10to1.1    POPC_10to1.3     GM1_50to1.2    DOPS_10to1.1    POPG_10to1.3Cardiolipin_50to1.2
+B         ·buffer.2   ·EtOH_10pct.1   ·iPrOH_8pct.3      SM_10to1.2    DMPC_50to1.1    DPPC_50to1.3    DOPC_10to1.2    POPC_50to1.1     GM1_50to1.3    DOPS_10to1.2    POPG_50to1.1Cardiolipin_50to1.3
+C         ·buffer.3   ·EtOH_10pct.2Cholesterol_10to1.1      SM_10to1.3    DMPC_50to1.2    DSPC_10to1.1    DOPC_10to1.3    POPC_50to1.2     GM3_10to1.1    DOPS_10to1.3    POPG_50to1.2                
+D   ·protein_only.1   ·EtOH_10pct.3Cholesterol_10to1.2      SM_50to1.1    DMPC_50to1.3    DSPC_10to1.2    DOPC_50to1.1    POPC_50to1.3     GM3_10to1.2    DOPS_50to1.1    POPG_50to1.3                
+E   ·protein_only.2 ·iPrOH_1.6pct.1Cholesterol_10to1.3      SM_50to1.2    DPPC_10to1.1    DSPC_10to1.3    DOPC_50to1.2     GM1_10to1.1     GM3_10to1.3    DOPS_50to1.2Cardiolipin_10to1.1                
+F   ·protein_only.3 ·iPrOH_1.6pct.2Cholesterol_50to1.1      SM_50to1.3    DPPC_10to1.2    DSPC_50to1.1    DOPC_50to1.3     GM1_10to1.2     GM3_50to1.1    DOPS_50to1.3Cardiolipin_10to1.2                
+G      ·EtOH_2pct.1 ·iPrOH_1.6pct.3Cholesterol_50to1.2    DMPC_10to1.1    DPPC_10to1.3    DSPC_50to1.2    POPC_10to1.1     GM1_10to1.3     GM3_50to1.2    POPG_10to1.1Cardiolipin_10to1.3                
+H      ·EtOH_2pct.2   ·iPrOH_8pct.1Cholesterol_50to1.3    DMPC_10to1.2    DPPC_50to1.1    DSPC_50to1.3    POPC_10to1.2     GM1_50to1.1     GM3_50to1.3    POPG_10to1.2Cardiolipin_50to1.1                
