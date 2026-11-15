@@ -126,14 +126,19 @@ def parse_pmchtml(soup):
     return "\n".join(out)
 
 
-for key, (fn, fmt) in ARTICLES.items():
-    path = os.path.join(HTML, fn)
-    if not os.path.exists(path):
-        print(f"skip {key}: {fn} missing")
-        continue
-    raw = open(path, encoding="utf-8", errors="replace").read()
-    soup = BeautifulSoup(raw, "lxml-xml" if fmt == "jats" else "lxml")
-    text = parse_jats(soup) if fmt == "jats" else parse_pmchtml(soup)
-    with open(os.path.join(OUT, f"{key}.txt"), "w") as f:
-        f.write(text)
-    print(f"{key}: {len(text)} chars -> data/extracted_text/{key}.txt")
+def main():
+    for key, (fn, fmt) in ARTICLES.items():
+        path = os.path.join(HTML, fn)
+        if not os.path.exists(path):
+            print(f"skip {key}: {fn} missing")
+            continue
+        raw = open(path, encoding="utf-8", errors="replace").read()
+        soup = BeautifulSoup(raw, "lxml-xml" if fmt == "jats" else "lxml")
+        text = parse_jats(soup) if fmt == "jats" else parse_pmchtml(soup)
+        with open(os.path.join(OUT, f"{key}.txt"), "w") as f:
+            f.write(text)
+        print(f"{key}: {len(text)} chars -> data/extracted_text/{key}.txt")
+
+
+if __name__ == "__main__":
+    main()
