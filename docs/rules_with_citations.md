@@ -1,8 +1,9 @@
 # The scoring rules, with the paper behind each one
 
-**How many papers?** The rules rest on **6 primary studies read & extracted in full**, plus
-**2 read at abstract level** for two specific points = **~8 papers**. The 640-paper literature
-corpus is a *search pool*, not the basis — only these were actually used to write the rules.
+**How many papers?** The rules rest on **7 primary studies read & extracted in full** (P1–P4, P6,
+P9, and partially P10), plus **3 read at abstract level** (P5, P7, P8) = **~10 papers**. The
+640-paper literature corpus is a *search pool*, not the basis — only these were actually used to
+write the rules. (P9–P10 were added from 3 targeted reads specific to Yuval's assay.)
 Each rule below is tagged **[full-text]** (I extracted the data) or **[abstract]** (direction
 only), and **[fact]** (stated in the paper) or **[inference]** (mechanistic reasoning).
 
@@ -23,6 +24,10 @@ only), and **[fact]** (stated in the paper) or **[inference]** (mechanistic reas
   Neurosci* 14:3183. doi:10.1021/acschemneuro.3c00314. [abstract / via P6 — DMPC suppression]
 - **P8 "Rapid anionic micelle-mediated α-synuclein fibrillization in vitro."** *JBC* 2003.
   doi:10.1074/jbc.m308231200. [abstract — for the detergent/fatty-acid correction]
+- **P9 "The extent of protein hydration dictates… α-synuclein aggregates."** *Chem Sci* 2021.
+  doi:10.1039/d0sc05297c. [full-text — ethanol/alcohol co-solvent accelerates at 100 µM/PBS/pH 7]
+- **P10 Jo et al. — α-synuclein membrane interactions and lipid specificity.** *JBC* 2000.
+  doi:10.1074/jbc.M004345200. [A53T↑ / A30P↓ membrane binding vs WT]
 
 ---
 
@@ -69,6 +74,33 @@ my first "ordered lipids are protective" guess was wrong and P6 overturned it.*
 micelle catalysis → ACCELERATE.** → *single-chain anionic −2* (keeps FFAs out of the "reducer" top).
 Source: **P8** (fatty acids / anionic detergents greatly accelerate fibrillization, lag as short as
 11 min, via micelles) [abstract].
+
+---
+
+## Rules added from the 3 targeted reads (specific to Yuval's assay)
+
+**Rule 9 — The ethanol vehicle is NOT inert: it accelerates α-syn aggregation (and can shift the
+fibril polymorph) at Yuval's exact conditions.** Consequence for scoring/analysis, not the lipid
+score itself: the aggregation **baseline rises with % ethanol**, so (a) every lipid must be judged
+against its **solvent-matched control at the same %**, (b) **10:1 (2% EtOH) and 50:1 (10% EtOH) are
+NOT directly comparable**, and (c) at 50:1 the ethanol effect may dominate / change the aggregate
+type. This is now evidence-backed, not just caution.
+Source: **P9 — "The extent of protein hydration dictates… α-synuclein aggregates", Chem Sci 2021,
+doi:10.1039/d0sc05297c** [full-text]: low-to-mild alcohols "increased significantly the rate of αS
+aggregation (100 µM αS, PBS, pH 7)" concentration-dependently; higher alcohol shifts parallel→
+antiparallel β-sheet polymorph. [fact] (Directly matches Yuval's 100 µM / PBS / pH 7.4.)
+
+**Rule 10 — A53T binds membranes MORE strongly than WT, so lipid effects are likely amplified**
+relative to the (mostly-WT) rules above — stronger binders may sequester/inhibit more, and any
+membrane-driven effect is enhanced. Treat the WT-derived scores as a conservative floor for A53T.
+Source: **P10 — Jo et al., α-synuclein membrane interactions & lipid specificity, *JBC* 2000,
+doi:10.1074/jbc.M004345200** (and A53T↑ / A30P↓ membrane binding in the familial-mutant literature),
+corroborated in fetched full texts (e.g. PMC9209734 tested A53T vs WT with DOPC/Mimic membranes). [fact]
+
+**Free-lipid assembly state — a genuine GAP, not a rule.** Beyond the single-chain→micelle case
+(P8), there is no clean literature on how *bilayer-forming* lipids behave when added "free" from
+ethanol (Yuval's method). This is exactly what Yuval is checking this week; until then the
+`formulation = free_from_ethanol (assembly TBD)` feature carries real uncertainty.
 
 ---
 
