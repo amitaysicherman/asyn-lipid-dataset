@@ -29,14 +29,18 @@ src/
   audit.py              # outputs/audit_report.md + candidate_evidence_table.{md,csv}
   features.py           # build data/model_table.csv
   model_eval.py         # baselines + leave-one-paper/lipid-out eval -> outputs/model_report.md
+  chemistry_ranking.py  # RULE-BASED (not ML) candidate ranker -> outputs/chemistry_ranking.md
+  ingest_manual.py      # ingest user-downloaded PDFs/DOCX -> data/manual_text/
   run_all.py            # reproduce everything
 docs/
   report.md             # main findings, limitations, verdict
+  chemistry_rules.md    # mechanistic rules + hand-reasoned candidate ranking (deep chemistry)
   data_dictionary.md    # every table & column, evidence-type legend
   search_log.md         # retrieval & access-limitation log
   needs_from_yuval.md   # exact protocol details required to make this predictive
 outputs/
-  audit_report.md  candidate_evidence_table.{md,csv}  provenance_check.md  model_report.md
+  audit_report.md  candidate_evidence_table.{md,csv}  provenance_check.md
+  model_report.md  chemistry_ranking.md
 ```
 
 ## Reproduce

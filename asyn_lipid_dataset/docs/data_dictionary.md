@@ -94,6 +94,7 @@ The single source of truth is `src/extraction_records.py` (hand-curated, with a 
 | net_charge_phys | approx net charge at neutral pH |
 | acyl_chains | e.g. `14:0/14:0` (C:double bonds per chain) |
 | mean_chain_carbons, total_double_bonds, n_chains | descriptors |
+| tm_C | main gel→fluid melting temperature (°C) of the pure lipid; measured constant (Galvagnion 2016 for the PS series, Avanti/literature for PC & SM); blank where there is no simple two-state Tm (sterol, ganglioside, mixtures) |
 | smiles | RDKit-canonical SMILES **for defined single species only** |
 | smiles_input, smiles_valid, smiles_source | `built_diacyl` / `curated` / `omitted` |
 | natural_mixture | 1 = natural-source mixture → SMILES deliberately omitted (no arbitrary structure assigned) |
