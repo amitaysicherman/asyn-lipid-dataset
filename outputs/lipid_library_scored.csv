@@ -1,0 +1,108 @@
+rank,lipid,score,predicted,lipid_class,headgroup,net_charge,acyl,mean_C,double_bonds,est_Tm_C,fluid_37C,is_candidate8,rationale,note
+1,GM1,3.0,likely reducer,ganglioside,glycan,-1,18:0,18.0,0,35,1,1,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+2,GM2,3.0,likely reducer,ganglioside,glycan,-1,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+3,GM3,3.0,likely reducer,ganglioside,glycan,-1,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+4,GD1a,3.0,likely reducer,ganglioside,glycan,-2,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+5,GD1b,3.0,likely reducer,ganglioside,glycan,-2,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+6,GT1b,3.0,likely reducer,ganglioside,glycan,-3,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+7,GQ1b,3.0,likely reducer,ganglioside,glycan,-4,18:0,18.0,0,35,1,0,anionic(+2); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+8,Cardiolipin(18:1),2.0,likely reducer,cardiolipin,diphosphatidylglycerol,-2,18:1/18:1/18:1/18:1,18.0,4,-35,1,0,anionic(+2),net -2; 4 chains
+9,DLPS,2.0,likely reducer,glycerophospholipid,PS,-1,12:0/12:0,12.0,0,3,1,0,anionic(+2),
+10,DMPS,2.0,likely reducer,glycerophospholipid,PS,-1,14:0/14:0,14.0,0,28,1,0,anionic(+2),
+11,DOPS,2.0,likely reducer,glycerophospholipid,PS,-1,18:1/18:1,18.0,2,-11,1,0,anionic(+2),
+12,POPS,2.0,likely reducer,glycerophospholipid,PS,-1,16:0/18:1,17.0,1,-1,1,0,anionic(+2),
+13,SOPS,2.0,likely reducer,glycerophospholipid,PS,-1,18:0/18:1,18.0,1,-1,1,0,anionic(+2),
+14,DLPG,2.0,likely reducer,glycerophospholipid,PG,-1,12:0/12:0,12.0,0,-1,1,0,anionic(+2),
+15,DMPG,2.0,likely reducer,glycerophospholipid,PG,-1,14:0/14:0,14.0,0,24,1,0,anionic(+2),
+16,DOPG,2.0,likely reducer,glycerophospholipid,PG,-1,18:1/18:1,18.0,2,-15,1,0,anionic(+2),
+17,POPG,2.0,likely reducer,glycerophospholipid,PG,-1,16:0/18:1,17.0,1,-5,1,0,anionic(+2),
+18,SOPG,2.0,likely reducer,glycerophospholipid,PG,-1,18:0/18:1,18.0,1,-5,1,0,anionic(+2),
+19,DLPA,2.0,likely reducer,glycerophospholipid,PA,-1,12:0/12:0,12.0,0,3,1,0,anionic(+2),
+20,DMPA,2.0,likely reducer,glycerophospholipid,PA,-1,14:0/14:0,14.0,0,28,1,0,anionic(+2),
+21,DOPA,2.0,likely reducer,glycerophospholipid,PA,-1,18:1/18:1,18.0,2,-11,1,0,anionic(+2),
+22,POPA,2.0,likely reducer,glycerophospholipid,PA,-1,16:0/18:1,17.0,1,-1,1,0,anionic(+2),
+23,SOPA,2.0,likely reducer,glycerophospholipid,PA,-1,18:0/18:1,18.0,1,-1,1,0,anionic(+2),
+24,DLPI,2.0,likely reducer,glycerophospholipid,PI,-1,12:0/12:0,12.0,0,-1,1,0,anionic(+2),
+25,DMPI,2.0,likely reducer,glycerophospholipid,PI,-1,14:0/14:0,14.0,0,24,1,0,anionic(+2),
+26,DOPI,2.0,likely reducer,glycerophospholipid,PI,-1,18:1/18:1,18.0,2,-15,1,0,anionic(+2),
+27,POPI,2.0,likely reducer,glycerophospholipid,PI,-1,16:0/18:1,17.0,1,-5,1,0,anionic(+2),
+28,SOPI,2.0,likely reducer,glycerophospholipid,PI,-1,18:0/18:1,18.0,1,-5,1,0,anionic(+2),
+29,Sulfatide,2.0,likely reducer,glycosphingolipid,glycan,-1,18:0,18.0,0,35,1,0,anionic(+2),natural source; big head; added 'free' -> likely micellar
+30,Cholesteryl-hemisuccinate,2.0,likely reducer,sterol,sterol,-1,,0,0,999,0,0,anionic(+2),sterol; condenses membrane / ↑hydrophobicity
+31,DPPS,1.5,inert/mild,glycerophospholipid,PS,-1,16:0/16:0,16.0,0,45,0,0,anionic(+2); gel/very-long(-0.5),
+32,DSPS,1.5,inert/mild,glycerophospholipid,PS,-1,18:0/18:0,18.0,0,59,0,0,anionic(+2); gel/very-long(-0.5),
+33,DAPS,1.5,inert/mild,glycerophospholipid,PS,-1,20:0/20:0,20.0,0,70,0,0,anionic(+2); gel/very-long(-0.5),
+34,DBPS,1.5,inert/mild,glycerophospholipid,PS,-1,22:0/22:0,22.0,0,79,0,0,anionic(+2); gel/very-long(-0.5),
+35,DArachidonoylPS,1.5,inert/mild,glycerophospholipid,PS,-1,20:4/20:4,20.0,8,-71,1,0,anionic(+2); gel/very-long(-0.5),
+36,DPPG,1.5,inert/mild,glycerophospholipid,PG,-1,16:0/16:0,16.0,0,41,0,0,anionic(+2); gel/very-long(-0.5),
+37,DSPG,1.5,inert/mild,glycerophospholipid,PG,-1,18:0/18:0,18.0,0,55,0,0,anionic(+2); gel/very-long(-0.5),
+38,DAPG,1.5,inert/mild,glycerophospholipid,PG,-1,20:0/20:0,20.0,0,66,0,0,anionic(+2); gel/very-long(-0.5),
+39,DBPG,1.5,inert/mild,glycerophospholipid,PG,-1,22:0/22:0,22.0,0,75,0,0,anionic(+2); gel/very-long(-0.5),
+40,DArachidonoylPG,1.5,inert/mild,glycerophospholipid,PG,-1,20:4/20:4,20.0,8,-75,1,0,anionic(+2); gel/very-long(-0.5),
+41,DPPA,1.5,inert/mild,glycerophospholipid,PA,-1,16:0/16:0,16.0,0,45,0,0,anionic(+2); gel/very-long(-0.5),
+42,DSPA,1.5,inert/mild,glycerophospholipid,PA,-1,18:0/18:0,18.0,0,59,0,0,anionic(+2); gel/very-long(-0.5),
+43,DAPA,1.5,inert/mild,glycerophospholipid,PA,-1,20:0/20:0,20.0,0,70,0,0,anionic(+2); gel/very-long(-0.5),
+44,DBPA,1.5,inert/mild,glycerophospholipid,PA,-1,22:0/22:0,22.0,0,79,0,0,anionic(+2); gel/very-long(-0.5),
+45,DArachidonoylPA,1.5,inert/mild,glycerophospholipid,PA,-1,20:4/20:4,20.0,8,-71,1,0,anionic(+2); gel/very-long(-0.5),
+46,DPPI,1.5,inert/mild,glycerophospholipid,PI,-1,16:0/16:0,16.0,0,41,0,0,anionic(+2); gel/very-long(-0.5),
+47,DSPI,1.5,inert/mild,glycerophospholipid,PI,-1,18:0/18:0,18.0,0,55,0,0,anionic(+2); gel/very-long(-0.5),
+48,DAPI,1.5,inert/mild,glycerophospholipid,PI,-1,20:0/20:0,20.0,0,66,0,0,anionic(+2); gel/very-long(-0.5),
+49,DBPI,1.5,inert/mild,glycerophospholipid,PI,-1,22:0/22:0,22.0,0,75,0,0,anionic(+2); gel/very-long(-0.5),
+50,DArachidonoylPI,1.5,inert/mild,glycerophospholipid,PI,-1,20:4/20:4,20.0,8,-75,1,0,anionic(+2); gel/very-long(-0.5),
+51,DLPC,1.0,inert/mild,glycerophospholipid,PC,0,12:0/12:0,12.0,0,-1,1,0,zwitterionic(0); fluid short-sat PC(+1),
+52,DMPC,1.0,inert/mild,glycerophospholipid,PC,0,14:0/14:0,14.0,0,24,1,1,zwitterionic(0); fluid short-sat PC(+1),
+53,DLPE,1.0,inert/mild,glycerophospholipid,PE,0,12:0/12:0,12.0,0,-1,1,0,zwitterionic(0); fluid short-sat PC(+1),
+54,DMPE,1.0,inert/mild,glycerophospholipid,PE,0,14:0/14:0,14.0,0,24,1,0,zwitterionic(0); fluid short-sat PC(+1),
+55,Asialo-GM1,1.0,inert/mild,glycosphingolipid,glycan,0,18:0,18.0,0,35,1,0,zwitterionic(0); big soluble head(+1),natural source; big head; added 'free' -> likely micellar
+56,Lyso16PC,0.5,inert/mild,glycerophospholipid,PC,0,16:0,16.0,0,21,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+57,Lyso18:1PC,0.5,inert/mild,glycerophospholipid,PC,0,18:1,18.0,1,-25,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+58,Lyso16PE,0.5,inert/mild,glycerophospholipid,PE,0,16:0,16.0,0,21,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+59,Lyso18:1PE,0.5,inert/mild,glycerophospholipid,PE,0,18:1,18.0,1,-25,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+60,SM(16:0),0.5,inert/mild,sphingolipid,sphingoid,0,16:0,16.0,0,21,1,1,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+61,SM(18:0),0.5,inert/mild,sphingolipid,sphingoid,0,18:0,18.0,0,35,1,1,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+62,egg-SM,0.5,inert/mild,sphingolipid,sphingoid,0,16:0,16.0,0,21,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+63,Ceramide(16:0),0.5,inert/mild,sphingolipid,sphingoid,0,16:0,16.0,0,21,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+64,Ceramide(18:1),0.5,inert/mild,sphingolipid,sphingoid,0,18:1,18.0,1,-25,1,0,zwitterionic(0); neutral single-chain/lyso disperses(+0.5),
+65,Sphingosine,0.5,inert/mild,sphingolipid,sphingoid,1,18:1,18.0,1,-25,1,0,cationic(0); neutral single-chain/lyso disperses(+0.5),
+66,Sphinganine,0.5,inert/mild,sphingolipid,sphingoid,1,18:0,18.0,0,35,1,0,cationic(0); neutral single-chain/lyso disperses(+0.5),
+67,Oleic acid,0.0,inert/mild,fatty_acid,carboxylate,-1,18:1,18.0,1,-25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+68,Palmitic acid,0.0,inert/mild,fatty_acid,carboxylate,-1,16:0,16.0,0,21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+69,Lauric acid,0.0,inert/mild,fatty_acid,carboxylate,-1,12:0,12.0,0,-21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+70,Myristic acid,0.0,inert/mild,fatty_acid,carboxylate,-1,14:0,14.0,0,4,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+71,Lyso16PS,0.0,inert/mild,glycerophospholipid,PS,-1,16:0,16.0,0,25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+72,Lyso18:1PS,0.0,inert/mild,glycerophospholipid,PS,-1,18:1,18.0,1,-21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+73,Lyso16PG,0.0,inert/mild,glycerophospholipid,PG,-1,16:0,16.0,0,21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+74,Lyso18:1PG,0.0,inert/mild,glycerophospholipid,PG,-1,18:1,18.0,1,-25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+75,Lyso16PA,0.0,inert/mild,glycerophospholipid,PA,-1,16:0,16.0,0,25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+76,Lyso18:1PA,0.0,inert/mild,glycerophospholipid,PA,-1,18:1,18.0,1,-21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+77,Lyso16PI,0.0,inert/mild,glycerophospholipid,PI,-1,16:0,16.0,0,21,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+78,Lyso18:1PI,0.0,inert/mild,glycerophospholipid,PI,-1,18:1,18.0,1,-25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+79,DOPC,0.0,inert/mild,glycerophospholipid,PC,0,18:1/18:1,18.0,2,-15,1,1,zwitterionic(0),
+80,POPC,0.0,inert/mild,glycerophospholipid,PC,0,16:0/18:1,17.0,1,-5,1,1,zwitterionic(0),
+81,SOPC,0.0,inert/mild,glycerophospholipid,PC,0,18:0/18:1,18.0,1,-5,1,0,zwitterionic(0),
+82,DOPE,0.0,inert/mild,glycerophospholipid,PE,0,18:1/18:1,18.0,2,-15,1,0,zwitterionic(0),
+83,POPE,0.0,inert/mild,glycerophospholipid,PE,0,16:0/18:1,17.0,1,-5,1,0,zwitterionic(0),
+84,SOPE,0.0,inert/mild,glycerophospholipid,PE,0,18:0/18:1,18.0,1,-5,1,0,zwitterionic(0),
+85,GalCer,0.0,inert/mild,glycosphingolipid,glycan,0,18:0,18.0,0,35,1,0,zwitterionic(0),natural source; big head; added 'free' -> likely micellar
+86,LacCer,0.0,inert/mild,glycosphingolipid,glycan,0,18:0,18.0,0,35,1,0,zwitterionic(0),natural source; big head; added 'free' -> likely micellar
+87,GlcCer,0.0,inert/mild,glycosphingolipid,glycan,0,18:0,18.0,0,35,1,0,zwitterionic(0),natural source; big head; added 'free' -> likely micellar
+88,SM(24:1),0.0,inert/mild,sphingolipid,sphingoid,0,24:1,24.0,1,-25,1,1,zwitterionic(0); gel/very-long(-0.5); neutral single-chain/lyso disperses(+0.5),
+89,S1P,0.0,inert/mild,sphingolipid,sphingoid,-1,18:1,18.0,1,-25,1,0,anionic(+2); single-chain anionic=detergent/micelle->accelerates(-2),
+90,Arachidonic acid,-0.5,likely promoter,fatty_acid,carboxylate,-1,20:4,20.0,4,-55,1,0,anionic(+2); gel/very-long(-0.5); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+91,DHA,-0.5,likely promoter,fatty_acid,carboxylate,-1,22:6,22.0,6,-75,1,0,anionic(+2); gel/very-long(-0.5); single-chain anionic=detergent/micelle->accelerates(-2),FFA: anionic at pH7.4; micellar when added free
+92,DPPC,-0.5,likely promoter,glycerophospholipid,PC,0,16:0/16:0,16.0,0,41,0,1,zwitterionic(0); gel/very-long(-0.5),
+93,DSPC,-0.5,likely promoter,glycerophospholipid,PC,0,18:0/18:0,18.0,0,55,0,1,zwitterionic(0); gel/very-long(-0.5),
+94,DAPC,-0.5,likely promoter,glycerophospholipid,PC,0,20:0/20:0,20.0,0,66,0,0,zwitterionic(0); gel/very-long(-0.5),
+95,DBPC,-0.5,likely promoter,glycerophospholipid,PC,0,22:0/22:0,22.0,0,75,0,0,zwitterionic(0); gel/very-long(-0.5),
+96,DArachidonoylPC,-0.5,likely promoter,glycerophospholipid,PC,0,20:4/20:4,20.0,8,-75,1,0,zwitterionic(0); gel/very-long(-0.5),
+97,DPPE,-0.5,likely promoter,glycerophospholipid,PE,0,16:0/16:0,16.0,0,41,0,0,zwitterionic(0); gel/very-long(-0.5),
+98,DSPE,-0.5,likely promoter,glycerophospholipid,PE,0,18:0/18:0,18.0,0,55,0,0,zwitterionic(0); gel/very-long(-0.5),
+99,DAPE,-0.5,likely promoter,glycerophospholipid,PE,0,20:0/20:0,20.0,0,66,0,0,zwitterionic(0); gel/very-long(-0.5),
+100,DBPE,-0.5,likely promoter,glycerophospholipid,PE,0,22:0/22:0,22.0,0,75,0,0,zwitterionic(0); gel/very-long(-0.5),
+101,DArachidonoylPE,-0.5,likely promoter,glycerophospholipid,PE,0,20:4/20:4,20.0,8,-75,1,0,zwitterionic(0); gel/very-long(-0.5),
+102,Cholesterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,1,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
+103,7-ketocholesterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,0,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
+104,25-OH-cholesterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,0,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
+105,Ergosterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,0,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
+106,Desmosterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,0,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
+107,24-OH-cholesterol,-1.0,likely promoter,sterol,sterol,0,,0,0,999,0,0,sterol(-1),sterol; condenses membrane / ↑hydrophobicity
