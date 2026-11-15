@@ -24,6 +24,32 @@ DROP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "data", "manual_
 OUT = os.path.join(ROOT, "data", "manual_text")
 os.makedirs(OUT, exist_ok=True)
 
+# Chat attachments land in these upload dirs in the cloud container; copy any PDF/DOCX
+# from there into manual_downloads/_uploaded/ so they get ingested too.
+UPLOAD_DIRS = ["/mnt/user-data/uploads", "/mnt/attach"]
+
+
+def collect_uploads():
+    import shutil
+    dst = os.path.join(DROP, "_uploaded")
+    found = 0
+    for ud in UPLOAD_DIRS:
+        if not os.path.isdir(ud):
+            continue
+        for dp, _, files in os.walk(ud):
+            for fn in files:
+                if os.path.splitext(fn)[1].lower() in (".pdf", ".docx"):
+                    os.makedirs(dst, exist_ok=True)
+                    out = os.path.join(dst, fn)
+                    if not os.path.exists(out):
+                        try:
+                            shutil.copy2(os.path.join(dp, fn), out)
+                            found += 1
+                        except Exception as e:  # noqa
+                            print(f"  could not copy {fn}: {e}")
+    if found:
+        print(f"Collected {found} attachment(s) from uploads into manual_downloads/_uploaded/")
+
 
 def extract_pdf(path):
     """Return (text, n_pages, n_tables, note). Tries pdfplumber, falls back to pdftotext."""
@@ -72,6 +98,7 @@ def main():
     if not os.path.isdir(DROP):
         print(f"Drop dir not found: {DROP}")
         return
+    collect_uploads()  # pull in any chat attachments first
     found = []
     for dirpath, _, files in os.walk(DROP):
         for fn in sorted(files):
