@@ -21,3 +21,6 @@ data/manual_downloads/**/*.docx
 # corpus, index and download lists, not the ~150 full-text files themselves
 data/literature/fulltext_xml/
 data/literature/fulltext_text/
+
+# Extracted paper full-text (copyright) - keep only the ingest log
+data/manual_text/*.txt
