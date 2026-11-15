@@ -1,0 +1,11 @@
+# The repo-root .gitignore ignores dirs named 'data'/'outputs' and all '*.json'.
+# Re-include OUR deliverables + small bibliographic metadata, while still excluding
+# the large, re-fetchable raw article HTML/XML and supplementary archives.
+!data/
+!data/raw_meta/
+!data/raw_meta/*.json
+!outputs/
+data/raw_html/
+data/raw_supp/
+__pycache__/
+*.pyc

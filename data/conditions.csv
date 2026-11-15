@@ -1,0 +1,44 @@
+condition_id,paper_id,label,assay_type,assay_paradigm,protein_variant,protein_conc_uM,buffer,pH,salt_mM,temp_C,agitation,plate,tht_uM,formulation,prep_method,vesicle_size_nm,seeding,obs_h,total_lipid_uM,lipid_to_protein_molar_ratio,source_page
+martinez2007_c01,martinez2007,GM1 SUVs + WT alpha-syn,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c02,martinez2007,GM2 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c03,martinez2007,GM3 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c04,martinez2007,asialo-GM1 SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c05,martinez2007,total brain gangliosides SUVs + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c06,martinez2007,other sphingolipids + WT,ThT_fibrillation,inhibition,WT,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c07,martinez2007,GM1 SUVs + A53T mutant,ThT_fibrillation,inhibition,A53T,,,,,,,,,SUV,,,unseeded,,,,abstract
+martinez2007_c08,martinez2007,GM1 SUVs + A30P mutant,ThT_fibrillation,inhibition,A30P,,,,,,,,,SUV,,,unseeded,,,,abstract
+grey2015_ctrl_shake,grey2015,alpha-syn alone (control),ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631 nontreated PS full-vol,20,none,,,unseeded,144,,,
+grey2015_ctrl_quiet_nb,grey2015,alpha-syn alone (control),ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,quiescent,Corning 3881 nonbinding half-area,20,none,,,unseeded,144,,,
+grey2015_c_exo_wtOE,grey2015,"exosomes (N2a WT-OE) 0.25 mg/ml, shaking",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631 nontreated PS full-vol,20,exosome,ultracentrifugation from N2a medium,~100,unseeded,144,,,
+grey2015_c_exo_naive,grey2015,"exosomes (naive N2a) 0.25 mg/ml, shaking",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,exosome,ultracentrifugation,~100,unseeded,144,,,
+grey2015_c_dopc,grey2015,DOPC SUV 0.2 mM,ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_dopc_dops30,grey2015,DOPC + 30% DOPS SUV 0.2 mM,ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_dopc_cl6,grey2015,DOPC + 6% cardiolipin SUV 0.2 mM,ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_dopc_sph15,grey2015,DOPC + 15% sphingosine SUV 0.2 mM,ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_gm1_02,grey2015,"DOPC + 10% GM1 SUV 0.2 mM, shaking",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_gm1_05,grey2015,"DOPC + 10% GM1 SUV 0.5 mM, shaking",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,probe sonication,SUV,unseeded,144,500.0,16.667,
+grey2015_c_gm1_01_quiet,grey2015,"DOPC + 10% GM1 SUV 0.1 mM, quiescent nonbinding",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,probe sonication,SUV,unseeded,144,100.0,3.333,
+grey2015_c_gm3_02_quiet,grey2015,"DOPC + 10% GM3 SUV 0.2 mM, quiescent",ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,probe sonication,SUV,unseeded,144,200.0,6.667,
+grey2015_c_exolipid,grey2015,extracted exosome-lipid SUV,ThT_kinetics,lipid_induced,WT,30,10 mM MES,5.5,140,37,100 rpm,Costar 3631,20,SUV,Bligh-Dyer extract + sonication,SUV,unseeded,144,,,
+galvagnion2016_ctrl,galvagnion2016,alpha-syn alone (no lipid),ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,,,
+galvagnion2016_c_dmps100_p100,galvagnion2016,DMPS 100 uM + 100 uM aSyn,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_dlps100_p100,galvagnion2016,DLPS 100 uM + 100 uM aSyn,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_dops100_p100,galvagnion2016,DOPS 100 uM + 100 uM aSyn,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_pops100_p100,galvagnion2016,POPS 100 uM + 100 uM aSyn,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_dpps100_p100,galvagnion2016,DPPS 100 uM + 100 uM aSyn (gel phase),ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_dpps_50C,galvagnion2016,DPPS 100 uM + aSyn at 50C (fluid),ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,50,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_synmimic,galvagnion2016,DOPE:DOPS:DOPC 50:30:20 (synaptic mimic),ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,,,
+galvagnion2016_c_synmimic_chol,galvagnion2016,DOPE:DOPS:DOPC 50:30:20 + cholesterol 10-40%,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,,,
+galvagnion2016_c_dlps_dpps,galvagnion2016,DLPS:DPPS 50:50 100 uM + 100 uM aSyn,ThT_kinetics,lipid_induced,WT,100,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,100.0,1.0,
+galvagnion2016_c_dmpc_dmps,galvagnion2016,"DMPC:DMPS mixtures (ratio varied), SI Fig S2",ThT_kinetics,lipid_induced,WT,,20 mM sodium phosphate,6.5,0,30,quiescent,Corning 3881 nonbinding half-area,50,SUV,sonication,SUV,unseeded,50,,,
+galvagnion2015_c_excess,galvagnion2015,DMPS excess (DMPS:aSyn > 40),ThT_kinetics,lipid_induced,WT,50,20 mM sodium phosphate,6.5,0,30,quiescent,Corning half-area nonbinding,,SUV,sonication,20-100,unseeded,65,,,
+galvagnion2015_c_low,galvagnion2015,DMPS low ratio (DMPS:aSyn 2-15),ThT_kinetics,lipid_induced,WT,50,20 mM sodium phosphate,6.5,0,30,quiescent,Corning half-area nonbinding,,SUV,sonication,20-100,unseeded,65,,,
+galvagnion2015_c_fibril_dissolution,galvagnion2015,DMPS excess (2-8 mM) + preformed fibrils (20 uM),ThT_kinetics,lipid_induced,WT,20,20 mM sodium phosphate,6.5,0,30,quiescent,Corning half-area nonbinding,,SUV,sonication,20-100,preformed_fibrils,65,,,
+gaspar2018_ctrl,gaspar2018,alpha-syn alone (no lipid),ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,none,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_gm1,gaspar2018,DOPC:GM1 9:1 SUV 0.1-0.5 mM,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_gm3,gaspar2018,DOPC:GM3 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_dops,gaspar2018,DOPC:DOPS 9:1 SUV (reference anionic),ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_dopc,gaspar2018,pure DOPC SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_asialogm1,gaspar2018,DOPC:Asialo-GM1 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_cerpeg,gaspar2018,DOPC:Cer-PEG750 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,
+gaspar2018_c_pepeg,gaspar2018,DOPC:PE-PEG750 9:1 SUV,ThT_kinetics,lipid_induced,WT,20,10 mM MES,5.5,0,37,quiescent,Corning 3881 nonbinding half-area,20,SUV,tip sonication,SUV,unseeded,140,,,

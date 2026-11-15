@@ -1,0 +1,60 @@
+component_id,condition_id,lipid_id,role,mol_fraction,fraction_basis,total_lipid_uM,component_conc_uM,component_to_protein_molar_ratio,note
+martinez2007_c01__comp1,martinez2007_c01,GM1,main,,,,,,GM1-containing SUVs; GM1 fraction not in abstract
+martinez2007_c02__comp1,martinez2007_c02,GM2,main,,,,,,
+martinez2007_c03__comp1,martinez2007_c03,GM3,main,,,,,,
+martinez2007_c04__comp1,martinez2007_c04,AsialoGM1,main,,,,,,
+martinez2007_c05__comp1,martinez2007_c05,BrainGangliosides,main,,,,,,undefined natural mixture
+martinez2007_c06__comp1,martinez2007_c06,SM,main,,,,,,'all other sphingolipids studied' - identities not enumerated in abstract; mapped to SM as representative but see quality_flag
+martinez2007_c07__comp1,martinez2007_c07,GM1,main,,,,,,
+martinez2007_c08__comp1,martinez2007_c08,GM1,main,,,,,,
+grey2015_c_exo_wtOE__comp1,grey2015_c_exo_wtOE,,exosome,,,~150 (est. phosphorus assay),,,exosome 0.25 mg/ml protein-content; mixed natural lipids+protein
+grey2015_c_exo_naive__comp1,grey2015_c_exo_naive,,exosome,,,,,,naive N2a exosomes
+grey2015_c_dopc__comp1,grey2015_c_dopc,DOPC,main,1.0,molar,200,200,6.667,
+grey2015_c_dopc_dops30__comp1,grey2015_c_dopc_dops30,DOPC,main,0.7,molar,200,140,4.667,
+grey2015_c_dopc_dops30__comp2,grey2015_c_dopc_dops30,DOPS,anionic,0.3,molar,200,60,2.0,
+grey2015_c_dopc_cl6__comp1,grey2015_c_dopc_cl6,DOPC,main,0.94,molar,200,188,6.267,
+grey2015_c_dopc_cl6__comp2,grey2015_c_dopc_cl6,CL,anionic,0.06,molar,200,12,0.4,net charge -2
+grey2015_c_dopc_sph15__comp1,grey2015_c_dopc_sph15,DOPC,main,0.85,molar,200,170,5.667,
+grey2015_c_dopc_sph15__comp2,grey2015_c_dopc_sph15,Sphingosine,cationic,0.15,molar,200,30,1.0,net +1; NOT sphingomyelin
+grey2015_c_gm1_02__comp1,grey2015_c_gm1_02,DOPC,main,0.9,molar,200,180,6.0,
+grey2015_c_gm1_02__comp2,grey2015_c_gm1_02,GM1,anionic,0.1,molar,200,20,0.667,"GM1 conc = 20 uM, NOT 200 uM"
+grey2015_c_gm1_05__comp1,grey2015_c_gm1_05,DOPC,main,0.9,molar,500,450,15.0,
+grey2015_c_gm1_05__comp2,grey2015_c_gm1_05,GM1,anionic,0.1,molar,500,50,1.667,GM1 conc = 50 uM
+grey2015_c_gm1_01_quiet__comp1,grey2015_c_gm1_01_quiet,DOPC,main,0.9,molar,100,90,3.0,
+grey2015_c_gm1_01_quiet__comp2,grey2015_c_gm1_01_quiet,GM1,anionic,0.1,molar,100,10,0.333,GM1 conc = 10 uM
+grey2015_c_gm3_02_quiet__comp1,grey2015_c_gm3_02_quiet,DOPC,main,0.9,molar,200,180,6.0,
+grey2015_c_gm3_02_quiet__comp2,grey2015_c_gm3_02_quiet,GM3,anionic,0.1,molar,200,20,0.667,
+grey2015_c_exolipid__comp1,grey2015_c_exolipid,,natural_extract,,,,,,exosome lipid extract (mixture)
+galvagnion2016_c_dmps100_p100__comp1,galvagnion2016_c_dmps100_p100,DMPS,main,1.0,molar,100,100,1.0,
+galvagnion2016_c_dlps100_p100__comp1,galvagnion2016_c_dlps100_p100,DLPS,main,1.0,molar,100,100,1.0,
+galvagnion2016_c_dops100_p100__comp1,galvagnion2016_c_dops100_p100,DOPS,main,1.0,molar,100,100,1.0,
+galvagnion2016_c_pops100_p100__comp1,galvagnion2016_c_pops100_p100,POPS,main,1.0,molar,100,100,1.0,
+galvagnion2016_c_dpps100_p100__comp1,galvagnion2016_c_dpps100_p100,DPPS,main,1.0,molar,100,100,1.0,solid gel at 30C
+galvagnion2016_c_dpps_50C__comp1,galvagnion2016_c_dpps_50C,DPPS,main,1.0,molar,100,100,1.0,fluid phase at 50C
+galvagnion2016_c_synmimic__comp1,galvagnion2016_c_synmimic,DOPE,main,0.5,molar,,,,
+galvagnion2016_c_synmimic__comp2,galvagnion2016_c_synmimic,DOPS,anionic,0.3,molar,,,,
+galvagnion2016_c_synmimic__comp3,galvagnion2016_c_synmimic,DOPC,main,0.2,molar,,,,
+galvagnion2016_c_synmimic_chol__comp1,galvagnion2016_c_synmimic_chol,DOPE,main,,molar,,,,base 50:30:20
+galvagnion2016_c_synmimic_chol__comp2,galvagnion2016_c_synmimic_chol,DOPS,anionic,,molar,,,,
+galvagnion2016_c_synmimic_chol__comp3,galvagnion2016_c_synmimic_chol,DOPC,main,,molar,,,,
+galvagnion2016_c_synmimic_chol__comp4,galvagnion2016_c_synmimic_chol,Cholesterol,sterol_additive,0.10-0.40,molar,,,,10-40% cholesterol added
+galvagnion2016_c_dlps_dpps__comp1,galvagnion2016_c_dlps_dpps,DLPS,main,0.5,molar,100,50,0.5,
+galvagnion2016_c_dlps_dpps__comp2,galvagnion2016_c_dlps_dpps,DPPS,main,0.5,molar,100,50,0.5,
+galvagnion2016_c_dmpc_dmps__comp1,galvagnion2016_c_dmpc_dmps,DMPC,main,0 to >0.25,molar,,,,DMPC fraction varied
+galvagnion2016_c_dmpc_dmps__comp2,galvagnion2016_c_dmpc_dmps,DMPS,anionic,balance,molar,,,,
+galvagnion2015_c_excess__comp1,galvagnion2015_c_excess,DMPS,main,1.0,molar,>2000,>2000,,"ratio>40, all protein bound"
+galvagnion2015_c_low__comp1,galvagnion2015_c_low,DMPS,main,1.0,molar,100-750,100-750,,ratio 2-15; max rate at ratio 8
+galvagnion2015_c_fibril_dissolution__comp1,galvagnion2015_c_fibril_dissolution,DMPS,main,1.0,molar,2000-8000,2000-8000,,ratio>100
+gaspar2018_c_gm1__comp1,gaspar2018_c_gm1,DOPC,main,0.9,molar,100-500,,,
+gaspar2018_c_gm1__comp2,gaspar2018_c_gm1,GM1,anionic,0.1,molar,100-500,,,
+gaspar2018_c_gm3__comp1,gaspar2018_c_gm3,DOPC,main,0.9,molar,100-500,,,
+gaspar2018_c_gm3__comp2,gaspar2018_c_gm3,GM3,anionic,0.1,molar,100-500,,,
+gaspar2018_c_dops__comp1,gaspar2018_c_dops,DOPC,main,0.9,molar,100-500,,,
+gaspar2018_c_dops__comp2,gaspar2018_c_dops,DOPS,anionic,0.1,molar,100-500,,,
+gaspar2018_c_dopc__comp1,gaspar2018_c_dopc,DOPC,main,1.0,molar,10-1000,,,
+gaspar2018_c_asialogm1__comp1,gaspar2018_c_asialogm1,DOPC,main,0.9,molar,10-1000,,,
+gaspar2018_c_asialogm1__comp2,gaspar2018_c_asialogm1,AsialoGM1,neutral_large_head,0.1,molar,10-1000,,,
+gaspar2018_c_cerpeg__comp1,gaspar2018_c_cerpeg,DOPC,main,0.9,molar,10-1000,,,
+gaspar2018_c_cerpeg__comp2,gaspar2018_c_cerpeg,Cer-PEG750,neutral_large_head,0.1,molar,10-1000,,,
+gaspar2018_c_pepeg__comp1,gaspar2018_c_pepeg,DOPC,main,0.9,molar,100-500,,,
+gaspar2018_c_pepeg__comp2,gaspar2018_c_pepeg,PE-PEG750,anionic,0.1,molar,100-500,,,
