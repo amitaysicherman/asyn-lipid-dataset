@@ -21,8 +21,12 @@ LIT = os.path.join(ROOT, "data", "literature")
 
 
 def load_fetched_ok():
-    path = os.path.join(LIT, "fetched_index.csv")
+    """Anything with a parsed full text on disk counts as fetched (by PMCID)."""
     ok = set()
+    tdir = os.path.join(LIT, "fulltext_text")
+    if os.path.isdir(tdir):
+        ok |= {os.path.splitext(f)[0] for f in os.listdir(tdir)}
+    path = os.path.join(LIT, "fetched_index.csv")
     if os.path.exists(path):
         for r in csv.DictReader(open(path)):
             if r["status"] in ("fetched", "fetched_html", "skip"):
@@ -31,7 +35,13 @@ def load_fetched_ok():
 
 
 def main():
-    rows = [r for r in csv.DictReader(open(os.path.join(LIT, "corpus.csv"))) if r["relevant"] == "1"]
+    # prefer the merged corpus (query + snowball) when present
+    corpus = os.path.join(LIT, "corpus_all.csv")
+    if not os.path.exists(corpus):
+        corpus = os.path.join(LIT, "corpus.csv")
+    rows = [r for r in csv.DictReader(open(corpus)) if r.get("relevant", "1") == "1"]
+    for r in rows:
+        r.setdefault("n_queries_matched", "1")
     fetched_ok = load_fetched_ok()
 
     def already(r):
