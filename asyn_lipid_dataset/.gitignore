@@ -9,3 +9,10 @@ data/raw_html/
 data/raw_supp/
 __pycache__/
 *.pyc
+
+# Manually-downloaded papers/SI stay local (copyright + size); keep folders + extracted text
+data/manual_downloads/**/*.pdf
+data/manual_downloads/**/*.docx
+!data/manual_downloads/
+!data/manual_downloads/**/.gitkeep
+!data/manual_text/
